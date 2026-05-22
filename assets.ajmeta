@@ -1,0 +1,13 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"aj:vine_wall": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/vine_wall/root.json",
+				"assets/aj/models/blueprint/vine_wall/root.json",
+				"assets/aj/textures/blueprint/vine_wall/texture.png"
+			]
+		}
+	}
+}

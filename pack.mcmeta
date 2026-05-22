@@ -1,9 +1,7 @@
 {
 	"pack": {
-		"description": [
-			"beans"
-		],
-		"min_format": 74,
-		"max_format": 9999999
+		"description": ["beans"],
+		"min_format": 84,
+		"max_format": 84
 	}
 }
