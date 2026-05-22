@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 15996,
+      "minecraft:time_since_rest": 75875,
+      "minecraft:walk_one_cm": 27962,
+      "minecraft:total_world_time": 125881,
+      "minecraft:leave_game": 3,
+      "minecraft:fly_one_cm": 93332,
+      "minecraft:crouch_one_cm": 703,
+      "minecraft:sneak_time": 1207,
+      "minecraft:play_time": 75875,
+      "minecraft:jump": 72,
+      "minecraft:time_since_death": 75875
+    },
+    "minecraft:used": {
+      "minecraft:waxed_copper_grate": 17,
+      "minecraft:barrier": 8,
+      "minecraft:oak_sign": 2,
+      "minecraft:iron_block": 46,
+      "minecraft:birch_log": 1
+    }
+  },
+  "DataVersion": 4790
+}
