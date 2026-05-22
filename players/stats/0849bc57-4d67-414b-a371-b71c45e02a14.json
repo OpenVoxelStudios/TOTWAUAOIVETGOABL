@@ -11,17 +11,17 @@
       "minecraft:iron_bars": 31
     },
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 217701,
-      "minecraft:time_since_rest": 156378,
-      "minecraft:walk_one_cm": 56125,
-      "minecraft:total_world_time": 156403,
-      "minecraft:leave_game": 10,
-      "minecraft:fly_one_cm": 1063613,
+      "minecraft:sprint_one_cm": 224004,
+      "minecraft:time_since_rest": 161783,
+      "minecraft:walk_one_cm": 56791,
+      "minecraft:total_world_time": 163720,
+      "minecraft:leave_game": 11,
+      "minecraft:fly_one_cm": 1089699,
       "minecraft:crouch_one_cm": 195,
       "minecraft:sneak_time": 735,
-      "minecraft:play_time": 156378,
-      "minecraft:jump": 2471,
-      "minecraft:time_since_death": 156378
+      "minecraft:play_time": 161783,
+      "minecraft:jump": 2553,
+      "minecraft:time_since_death": 161783
     }
   },
   "DataVersion": 4790

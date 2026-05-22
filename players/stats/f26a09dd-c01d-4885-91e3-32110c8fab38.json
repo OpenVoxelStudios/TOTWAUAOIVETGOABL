@@ -1,7 +1,7 @@
 {
   "stats": {
     "minecraft:used": {
-      "minecraft:cyan_terracotta": 11,
+      "minecraft:cyan_terracotta": 12,
       "minecraft:waxed_copper_grate": 17,
       "minecraft:barrier": 8,
       "minecraft:oak_sign": 2,
@@ -12,19 +12,19 @@
       "minecraft:chiseled_sandstone": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 260605,
-      "minecraft:walk_one_cm": 66862,
-      "minecraft:leave_game": 4,
+      "minecraft:time_since_rest": 265714,
+      "minecraft:walk_one_cm": 68818,
+      "minecraft:leave_game": 5,
       "minecraft:mob_kills": 1,
-      "minecraft:play_time": 260605,
-      "minecraft:jump": 431,
-      "minecraft:time_since_death": 260605,
+      "minecraft:play_time": 265714,
+      "minecraft:jump": 432,
+      "minecraft:time_since_death": 265714,
       "minecraft:drop": 2,
-      "minecraft:sprint_one_cm": 48431,
-      "minecraft:total_world_time": 310611,
-      "minecraft:fly_one_cm": 258074,
-      "minecraft:crouch_one_cm": 1676,
-      "minecraft:sneak_time": 1956
+      "minecraft:sprint_one_cm": 49279,
+      "minecraft:total_world_time": 315720,
+      "minecraft:fly_one_cm": 260245,
+      "minecraft:crouch_one_cm": 1722,
+      "minecraft:sneak_time": 1981
     },
     "minecraft:dropped": {
       "minecraft:stone_sword": 2
