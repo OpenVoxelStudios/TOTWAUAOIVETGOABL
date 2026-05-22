@@ -4,18 +4,21 @@
 		"aj:entrance": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
+				"assets/aj/items/blueprint/entrance/door.json",
 				"assets/aj/items/blueprint/entrance/head.json",
 				"assets/aj/items/blueprint/entrance/left_arm.json",
 				"assets/aj/items/blueprint/entrance/left_leg.json",
 				"assets/aj/items/blueprint/entrance/right_arm.json",
 				"assets/aj/items/blueprint/entrance/right_leg.json",
 				"assets/aj/items/blueprint/entrance/torso.json",
+				"assets/aj/models/blueprint/entrance/door.json",
 				"assets/aj/models/blueprint/entrance/head.json",
 				"assets/aj/models/blueprint/entrance/left_arm.json",
 				"assets/aj/models/blueprint/entrance/left_leg.json",
 				"assets/aj/models/blueprint/entrance/right_arm.json",
 				"assets/aj/models/blueprint/entrance/right_leg.json",
-				"assets/aj/models/blueprint/entrance/torso.json"
+				"assets/aj/models/blueprint/entrance/torso.json",
+				"assets/aj/textures/blueprint/entrance/help.png"
 			]
 		},
 		"aj:vine_wall": {
