@@ -1,4 +1,4 @@
 {
 	"replace": false,
-	"values": ["aj:vine_wall/on_load"]
+	"values": ["aj:entrance/on_load", "aj:vine_wall/on_load"]
 }
