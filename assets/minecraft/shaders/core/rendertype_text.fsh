@@ -13,6 +13,10 @@ in vec2 texCoord0;
 
 out vec4 fragColor;
 
+float easeInOutQuad(float x) {
+    return x < 0.5 ? 2 * x * x : 1 - pow(-2 * x + 2, 2) / 2;
+}
+
 void main() {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
     
@@ -25,7 +29,7 @@ void main() {
         special_shader = true;
         vec2 uv = gl_FragCoord.xy / ScreenSize;
         uv = uv * 2 - 1;
-        if (abs(uv.y) < vertexColor.r || abs(uv.y) < 1-fragColor.a) {
+        if (abs(uv.y) < vertexColor.r || abs(uv.y) < easeInOutQuad(1-fragColor.a)) {
             discard;
         }
         fragColor = vec4(vertexColor.ggg,1);
