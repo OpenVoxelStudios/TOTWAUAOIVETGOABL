@@ -29,8 +29,15 @@ void main() {
         special_shader = true;
         vec2 uv = gl_FragCoord.xy / ScreenSize;
         uv = uv * 2 - 1;
-        if (abs(uv.y) < vertexColor.r || abs(uv.y) < easeInOutQuad(1-fragColor.a)) {
-            discard;
+        float cutoff = (1-fragColor.a);
+        if (round(vertexColor.b) == 1) {
+            if (abs(uv.y) < max(vertexColor.r, easeInOutQuad(cutoff))) {
+                discard;
+            } 
+        } else {
+            if (abs(uv.y) < min(vertexColor.r, easeInOutQuad(1-cutoff))) {
+                discard;
+            } 
         }
         fragColor = vec4(vertexColor.ggg,1);
     }
