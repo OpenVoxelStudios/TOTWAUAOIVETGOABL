@@ -3,15 +3,16 @@
 		"format": "animated-java:format/blueprint",
 		"format_version": "1.10.0-beta.6",
 		"uuid": "c3dac309-ad04-168e-d4be-83c8f086b283",
-		"save_location": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/saves/the game jam™/datapacks/steve_magic/ajrigs/entrance.ajblueprint",
+		"save_location": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/saves/the game jam™/datapacks/stevelocks/ajrigs/entrance.ajblueprint",
 		"last_used_blueprint_id": "aj:entrance"
 	},
 	"resolution": {
-		"width": 16,
-		"height": 16
+		"width": 128,
+		"height": 128
 	},
 	"blueprint_settings": {
 		"blueprint_id": "aj:entrance",
+		"render_box": [48, 48],
 		"resource_pack": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/resourcepacks/the_rp",
 		"data_pack": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/saves/the game jam™/datapacks/stevelocks"
 	},
@@ -29,27 +30,33 @@
 			"allow_mirror_modeling": true,
 			"from": [-16, 0, 5],
 			"to": [16, 48, 7],
-			"autouv": 1,
+			"autouv": 0,
 			"color": 9,
 			"origin": [-8, 0, 6],
 			"faces": {
 				"north": {
-					"uv": [0, 0, 16, 16]
+					"uv": [0, 0, 32, 48],
+					"texture": "44dbc70a-0a8c-acd6-ab0b-3301f0df2fc6"
 				},
 				"east": {
-					"uv": [0, 0, 2, 16]
+					"uv": [0, 48, 2, 96],
+					"texture": "44dbc70a-0a8c-acd6-ab0b-3301f0df2fc6"
 				},
 				"south": {
-					"uv": [0, 0, 16, 16]
+					"uv": [32, 0, 64, 48],
+					"texture": "44dbc70a-0a8c-acd6-ab0b-3301f0df2fc6"
 				},
 				"west": {
-					"uv": [0, 0, 2, 16]
+					"uv": [2, 48, 4, 96],
+					"texture": "44dbc70a-0a8c-acd6-ab0b-3301f0df2fc6"
 				},
 				"up": {
-					"uv": [0, 0, 16, 2]
+					"uv": [36, 50, 4, 48],
+					"texture": "44dbc70a-0a8c-acd6-ab0b-3301f0df2fc6"
 				},
 				"down": {
-					"uv": [0, 0, 16, 2]
+					"uv": [68, 48, 36, 50],
+					"texture": "44dbc70a-0a8c-acd6-ab0b-3301f0df2fc6"
 				}
 			},
 			"type": "cube",
@@ -556,7 +563,7 @@
 			"visibility": true,
 			"autouv": 0,
 			"isOpen": true,
-			"primary_selected": false
+			"primary_selected": true
 		}
 	],
 	"outliner": [
@@ -611,12 +618,45 @@
 			"children": ["c4135dfb-b115-5072-2f98-212c3bbce6ec"]
 		}
 	],
-	"textures": [],
+	"textures": [
+		{
+			"name": "help",
+			"path": "",
+			"folder": "block",
+			"namespace": "",
+			"id": "0",
+			"group": "",
+			"scope": 0,
+			"width": 128,
+			"height": 128,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"file_format": "png",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"wrap_mode": "limited",
+			"pbr_channel": "color",
+			"fps": 7,
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": false,
+			"uuid": "44dbc70a-0a8c-acd6-ab0b-3301f0df2fc6",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAADuklEQVR4AeyUO24UQRCGeychgAOsRAAZiY9CRoQccQIkIHJMSETmiBNwA3MBbkCARILkhAwERMvOSo2ssUYz7umursdnubTe3emu//HJw/nVz0PP+fP11aHnpOA/w+j/8f5+6jHj7nHuPXySesy4O/qcAIgeQmT/ABC5/aN3ADiGEPkXACK3f/QOAMcQIv8CQND2s20AyEkEfQWAoMVn2wCQkwj6CgBBi8+2ASAnEfQVAIIWn20DQE4i6CsABCt+ahcApokEew8AwQqf2gWAaSLB3gNAsMKndgFgmkiw9wAQrPCpXQCYJhLsPQAEKXzOJgDMJRPkcwAIUvScTQCYSybI5wAQpOg5mwAwl0yQzwEgSNFzNgFgLpkgnwOA86KX7AHAUkLOvwcA5wUv2QOApYScfw8AzgtesgcASwk5/x4AnBe8ZA8AlhJy/j0AOC14rS0AWJuU0+cAwGmxa20BwNqknD4HAE6LXWsLANYm5fQ5AHBa7FpbALA2KafPnQD4dv0r9Zic6d/vX1KPyfs9vd7Vy3B9dpnGufz8Po3zfP8jSc7V75fp5py/HZLkPHvx5nBz7hqg9edP/wGsm0B/eQK3AHh69mjXcz5+eLfrOeVR2jx5CwCbNlBdmgAAlCbn5BwAOCmy1AYAlCbn5BwAOCmy1AYAlCbn5BwAOCmy1AYAlCbn5BwAOCmy1AYAlCbn5BwAOCmy1AYAlCbn5BwAGC9yq3wA2Jqg8fMAYLzArfIBYGuCxs8DgPECt8oHgK0JGj8PAMYL3CofALYmaPw8ABgtsJZsAKiVpNF7AMBocbVkA0CtJI3eAwBGi6slGwBqJWn0HgAwWlwt2QBQK0mj9wCAseJqywWA2okauw8AjBVWWy4A1E7U2H0AYKyw2nIBoHaixu4DAGOF1ZYLALUTNXYfABgprJVMAGiVrJF7AcBIUa1kAkCrZI3cCwBGimolEwBaJWvkXgAwUlQrmQDQKlkj9wKA8qJayxs+7V/vxnlwcbEbp/VC7teVAP8BdPUhrgYAxCPXtRAAdPUhrgYAxCPXtRAAdPUhrgYAxCPXtRAAdPXxX43UHwAglbTSPQCgtBgpWQAglbTSPQCgtBgpWQAglbTSPQCgtBgpWQAglbTSPQCgrBhpOQAgnbiyfQCgrBBpOQAgnbiyfQCgrBBpOQAgnbiyfQCgrBBpOQAgnbiyfQCgpJBeMgCgV/JK9gKAkiJ6yQCAXskr2QsASoroJQMAeiWvZC8AKCmilwwA6JW8kr0A0LmI3uv/AQAA//8JPVmFAAAABklEQVQDAPbXKR9U55O+AAAAAElFTkSuQmCC"
+		}
+	],
 	"variants": {
 		"default": {
 			"name": "default",
 			"display_name": "Default",
-			"uuid": "0fd01d01-919d-42b3-7d01-91230e7f0ad2",
+			"uuid": "8c356250-5121-95ec-6d82-aee3eda794e7",
 			"texture_map": {},
 			"excluded_nodes": [],
 			"is_default": true

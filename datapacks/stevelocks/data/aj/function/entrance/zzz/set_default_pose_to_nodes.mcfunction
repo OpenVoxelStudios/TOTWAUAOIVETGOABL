@@ -5,3 +5,4 @@ $data merge entity $(left_arm) { transformation: [-1f,0f,0f,0.25f,0f,1f,0f,-2046
 $data merge entity $(torso) { transformation: [-1f,0f,0f,0f,0f,1f,0f,-3070.5625f,0f,0f,-1f,0f,0f,0f,0f,1f], start_interpolation: -1 }
 $data merge entity $(right_leg) { transformation: [-1f,0f,0f,-0.125f,0f,1f,0f,-4095.25f,0f,0f,-1f,0f,0f,0f,0f,1f], start_interpolation: -1 }
 $data merge entity $(left_leg) { transformation: [-1f,0f,0f,0.125f,0f,1f,0f,-5119.25f,0f,0f,-1f,0f,0f,0f,0f,1f], start_interpolation: -1 }
+$data merge entity $(door) { transformation: [-2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,-2f,0f,0f,0f,0f,1f], start_interpolation: -1 }

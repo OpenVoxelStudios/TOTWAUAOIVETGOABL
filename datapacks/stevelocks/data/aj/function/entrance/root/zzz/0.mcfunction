@@ -11,3 +11,5 @@ $tp $(right_leg) ~ ~ ~ ~ ~
 $execute as $(right_leg) store success entity @s OnGround byte 1 store success score @s aj.i unless score @s aj.i matches 1
 $tp $(left_leg) ~ ~ ~ ~ ~
 $execute as $(left_leg) store success entity @s OnGround byte 1 store success score @s aj.i unless score @s aj.i matches 1
+$tp $(door) ~ ~ ~ ~ ~
+$execute as $(door) store success entity @s OnGround byte 1 store success score @s aj.i unless score @s aj.i matches 1

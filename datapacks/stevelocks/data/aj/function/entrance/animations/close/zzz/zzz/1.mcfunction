@@ -5,3 +5,4 @@ $data modify entity $(left_arm) start_interpolation set value -1
 $data modify entity $(torso) start_interpolation set value -1
 $data modify entity $(right_leg) start_interpolation set value -1
 $data modify entity $(left_leg) start_interpolation set value -1
+$data modify entity $(door) start_interpolation set value -1

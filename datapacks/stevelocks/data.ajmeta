@@ -108,6 +108,7 @@
 				"data/aj/function/entrance/zzz/summon/animation_arg/start_animation.mcfunction",
 				"data/aj/function/entrance/zzz/summon/animation_arg/try_set_frame.mcfunction",
 				"data/aj/function/entrance/zzz/summon/as_camera/camera.mcfunction",
+				"data/aj/function/entrance/zzz/summon/as_node/door.mcfunction",
 				"data/aj/function/entrance/zzz/summon/as_node/head.mcfunction",
 				"data/aj/function/entrance/zzz/summon/as_node/left_arm.mcfunction",
 				"data/aj/function/entrance/zzz/summon/as_node/left_leg.mcfunction",

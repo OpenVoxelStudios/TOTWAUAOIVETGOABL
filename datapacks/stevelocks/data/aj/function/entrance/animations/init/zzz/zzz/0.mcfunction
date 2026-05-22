@@ -5,3 +5,4 @@ $data modify entity $(left_arm) interpolation_duration set value 1
 $data modify entity $(torso) interpolation_duration set value 1
 $data modify entity $(right_leg) interpolation_duration set value 1
 $data modify entity $(left_leg) interpolation_duration set value 1
+$data modify entity $(door) interpolation_duration set value 1

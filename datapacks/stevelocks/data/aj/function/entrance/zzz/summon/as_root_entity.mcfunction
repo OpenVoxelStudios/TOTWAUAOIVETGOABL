@@ -12,7 +12,7 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:entrance"
-data modify storage animated_java:temp entry.data.rig_hash set value "546852345c5a7da3e25d70d362fb0f5042e349ec3239daea053359fe649981de"
+data modify storage animated_java:temp entry.data.rig_hash set value "8fbb365caffd891e4458934bbd4d5fed895adc8e2ac791c69ffb47f626b41ad1"
 tp @s ~ ~ ~ ~ ~
 summon minecraft:item_display ^0 ^2.625 ^-4 {Tags:["","aj.entrance.camera","aj.entrance.camera.camera","aj.entrance.entity","aj.entrance.node","aj.entrance.node.camera","aj.global.camera","aj.global.entity","aj.global.node","aj.global.node.camera","aj.global.root.child","aj.global.root.child.camera","aj.new"], teleport_duration: 2}
 execute as @n[ type=minecraft:item_display, tag=aj.entrance.camera.camera, tag=aj.new, distance=..10 ] run function aj:entrance/zzz/summon/as_camera/camera
@@ -37,6 +37,9 @@ data modify storage animated_java:temp entry.data.uuids_by_name.right_leg set fr
 execute on passengers if entity @s[tag=aj.entrance.node.left_leg] run function aj:entrance/zzz/summon/as_node/left_leg
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.left_leg set from storage animated_java:gu out
+execute on passengers if entity @s[tag=aj.entrance.node.door] run function aj:entrance/zzz/summon/as_node/door
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.uuids_by_name.door set from storage animated_java:gu out
 function aj:entrance/zzz/set_default_pose
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args

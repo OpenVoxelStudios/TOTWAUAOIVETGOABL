@@ -5,6 +5,7 @@ $data merge entity $(left_arm) {transformation: [-0.9704f,0.0571f,-0.2349f,0.25f
 $data merge entity $(torso) {transformation: [-1f,0f,0f,0f,0f,0.9235f,-0.3837f,-3070.6725f,0f,-0.3837f,-0.9235f,-4.327f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(right_leg) {transformation: [-0.9998f,-0.0187f,-0.0114f,-0.125f,-0.0089f,0.824f,-0.5666f,-4095.3074f,0.02f,-0.5663f,-0.8239f,-4.0632f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(left_leg) {transformation: [-0.9999f,0.0159f,0.0065f,0.125f,0.0138f,0.967f,-0.2545f,-5119.3074f,-0.0103f,-0.2544f,-0.967f,-4.0632f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(door) {transformation: [-2f,0f,0f,0f,0f,2f,0f,2.9925f,0f,0f,-2f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 data modify storage animated_java:temp entry.data merge value {"cameras":{"camera":{"px":7.667211489040487e-16,"py":3.286015020482476,"pz":-6.260753299954484,"ry":0,"rx":19.32066454255803}},"locators":{}}
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
