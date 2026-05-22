@@ -13,3 +13,6 @@ data modify entity @n[type=interaction,tag=phase1_bulb] height set value 2
 fill 25 -58 47 26 -60 47 air
 
 
+#phase 5 chem door close
+execute as @n[tag=phase5_chem_wall,type=item_display,tag=aj.vine_wall.root] run function aj:vine_wall/animations/reset_noint/play
+

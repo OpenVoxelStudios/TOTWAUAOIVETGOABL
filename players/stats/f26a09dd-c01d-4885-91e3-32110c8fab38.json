@@ -1,33 +1,53 @@
 {
   "stats": {
     "minecraft:used": {
-      "minecraft:cyan_terracotta": 12,
-      "minecraft:waxed_copper_grate": 17,
-      "minecraft:barrier": 8,
-      "minecraft:oak_sign": 2,
+      "minecraft:waxed_exposed_copper_chain": 9,
+      "minecraft:polished_tuff": 346,
+      "minecraft:waxed_exposed_cut_copper": 4,
+      "minecraft:redstone_block": 1,
       "minecraft:player_head": 3,
+      "minecraft:waxed_copper_bars": 11,
+      "minecraft:waxed_exposed_copper_grate": 4,
       "minecraft:iron_block": 77,
-      "minecraft:blue_egg": 18,
+      "minecraft:waxed_weathered_copper_chain": 2,
       "minecraft:birch_log": 1,
-      "minecraft:chiseled_sandstone": 1
+      "minecraft:waxed_copper_chain": 7,
+      "minecraft:oak_log": 2,
+      "minecraft:cyan_terracotta": 31,
+      "minecraft:waxed_copper_bulb": 1,
+      "minecraft:waxed_copper_grate": 18,
+      "minecraft:waxed_oxidized_copper_grate": 1,
+      "minecraft:barrier": 10,
+      "minecraft:oak_sign": 2,
+      "minecraft:blue_egg": 18,
+      "minecraft:tuff_bricks": 8,
+      "minecraft:waxed_exposed_copper_bars": 4,
+      "minecraft:chiseled_sandstone": 2
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 265714,
-      "minecraft:walk_one_cm": 68818,
-      "minecraft:leave_game": 5,
+      "minecraft:time_since_rest": 72979,
+      "minecraft:walk_one_cm": 106099,
+      "minecraft:leave_game": 6,
       "minecraft:mob_kills": 1,
-      "minecraft:play_time": 265714,
-      "minecraft:jump": 432,
-      "minecraft:time_since_death": 265714,
-      "minecraft:drop": 2,
-      "minecraft:sprint_one_cm": 49279,
-      "minecraft:total_world_time": 315720,
-      "minecraft:fly_one_cm": 260245,
-      "minecraft:crouch_one_cm": 1722,
-      "minecraft:sneak_time": 1981
+      "minecraft:damage_taken": 240,
+      "minecraft:play_time": 380588,
+      "minecraft:jump": 814,
+      "minecraft:time_since_death": 72921,
+      "minecraft:drop": 6,
+      "minecraft:sprint_one_cm": 96036,
+      "minecraft:total_world_time": 430594,
+      "minecraft:fly_one_cm": 648839,
+      "minecraft:crouch_one_cm": 5727,
+      "minecraft:sneak_time": 4332,
+      "minecraft:deaths": 1
     },
     "minecraft:dropped": {
-      "minecraft:stone_sword": 2
+      "minecraft:waxed_copper_grate": 1,
+      "minecraft:iron_shovel": 1,
+      "minecraft:stone_sword": 4
+    },
+    "minecraft:picked_up": {
+      "minecraft:stone_sword": 1
     }
   },
   "DataVersion": 4790

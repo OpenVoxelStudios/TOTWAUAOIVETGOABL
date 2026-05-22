@@ -1,1 +1,1 @@
-execute if score killed_plants phase matches 10 run function phase:unlock {phase:4}
+#execute if score killed_plants phase matches 10 run function phase:unlock {phase:4}

@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 run function aj:entrance/animati
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.close.frame
 function aj:entrance/animations/close/zzz/apply_frame with storage animated_java:temp args
-execute if score @s aj.close.frame matches 30.. run return run function aj:entrance/animations/close/pause
+execute if score @s aj.close.frame matches 80.. run return run function aj:entrance/animations/close/pause
 scoreboard players add @s aj.close.frame 1
