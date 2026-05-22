@@ -891,7 +891,8 @@
 							"color": -1,
 							"uniform": true,
 							"interpolation": "step",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "scale",
@@ -1406,61 +1407,6 @@
 							"data_points": [
 								{
 									"function": "title @a[tag=!dead] times 5 20 15\ntitle @a[tag=!dead] title {font:\"shader\",text:\"\\uFF00\",color:\"#b000FF\",shadow_color:0}",
-									"execute_condition": "",
-									"repeat": false,
-									"repeat_frequency": 1
-								}
-							],
-							"uuid": "a010ec46-d2f7-8342-f2f0-80b7ba85fcee",
-							"time": 2.35,
-							"color": -1,
-							"interpolation": "linear",
-							"easing": "linear"
-						},
-						{
-							"channel": "function",
-							"data_points": [
-								{
-									"function": "function phase:unlock {phase:4}",
-									"execute_condition": "",
-									"repeat": false,
-									"repeat_frequency": 1
-								}
-							],
-							"uuid": "e05caeef-8cf6-b93f-8905-c71dc086d580",
-							"time": 4,
-							"color": -1,
-							"interpolation": "linear",
-							"easing": "linear"
-						}
-					]
-				},
-				"effects": {
-					"name": "Effects",
-					"type": "effect",
-					"keyframes": [
-						{
-							"channel": "function",
-							"data_points": [
-								{
-									"function": "execute as @a[tag=!dead] run spectate @n[tag=aj.entrance.camera] @s",
-									"execute_condition": "",
-									"repeat": true,
-									"repeat_frequency": 1
-								}
-							],
-							"uuid": "7dbbb0b0-d4f3-fd6b-2452-5b88b2579d1b",
-							"time": 0,
-							"color": -1,
-							"interpolation": "linear",
-							"easing": "linear",
-							"easingArgs": []
-						},
-						{
-							"channel": "function",
-							"data_points": [
-								{
-									"function": "title @a[tag=!dead] times 5 50 20\ntitle @a[tag=!dead] title {font:\"shader\",text:\"\\uFF00\",color:\"#b000FF\",shadow_color:0}",
 									"execute_condition": "",
 									"repeat": false,
 									"repeat_frequency": 1
