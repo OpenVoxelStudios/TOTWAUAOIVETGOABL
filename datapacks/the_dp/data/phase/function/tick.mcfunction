@@ -1,0 +1,9 @@
+execute if score phase phase matches 0 run function phase:tick/0
+execute if score phase phase matches 1 run function phase:tick/1
+execute if score phase phase matches 2 run function phase:tick/2
+execute if score phase phase matches 3 run function phase:tick/3
+execute if score phase phase matches 4 run function phase:tick/4
+execute if score phase phase matches 5 run function phase:tick/5
+execute if score phase phase matches 6 run function phase:tick/6
+execute if score phase phase matches 7 run function phase:tick/7
+execute if score phase phase matches 8 run function phase:tick/8

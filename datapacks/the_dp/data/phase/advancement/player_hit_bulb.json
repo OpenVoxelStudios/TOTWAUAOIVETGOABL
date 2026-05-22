@@ -4,7 +4,7 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "nbt": "{Tags:[\"phase2_bulb\"]}"
+                    "nbt": "{Tags:[\"phase1_bulb\"]}"
                 }
             }
         }

@@ -1,127 +1,139 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-05-22 12:39:27 +0200"
+      "unlock_right_away": "2026-05-22 04:39:27 -0600"
     },
     "done": true
   },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
-      "has_iron_block": "2026-05-22 18:18:26 +0200"
+      "has_iron_block": "2026-05-22 10:18:26 -0600"
     },
     "done": true
   },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
-      "has_iron_block": "2026-05-22 18:18:26 +0200"
+      "has_iron_block": "2026-05-22 10:18:26 -0600"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/waxed_copper_grate_from_honeycomb": {
     "criteria": {
-      "has_copper_grate": "2026-05-22 18:21:50 +0200"
+      "has_copper_grate": "2026-05-22 10:21:50 -0600"
     },
     "done": true
   },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
-      "has_stick": "2026-05-22 18:53:59 +0200"
+      "has_stick": "2026-05-22 10:53:59 -0600"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
-      "has_stick": "2026-05-22 18:53:59 +0200"
+      "has_stick": "2026-05-22 10:53:59 -0600"
     },
     "done": true
   },
   "minecraft:recipes/combat/wooden_spear": {
     "criteria": {
-      "has_stick": "2026-05-22 18:53:59 +0200"
+      "has_stick": "2026-05-22 10:53:59 -0600"
     },
     "done": true
   },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
-      "has_stick": "2026-05-22 18:53:59 +0200"
+      "has_stick": "2026-05-22 10:53:59 -0600"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
-      "has_stick": "2026-05-22 18:53:59 +0200"
+      "has_stick": "2026-05-22 10:53:59 -0600"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
-      "has_stick": "2026-05-22 18:53:59 +0200"
+      "has_stick": "2026-05-22 10:53:59 -0600"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
-      "has_stick": "2026-05-22 18:53:59 +0200"
+      "has_stick": "2026-05-22 10:53:59 -0600"
     },
     "done": true
   },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
-      "has_stick": "2026-05-22 18:53:59 +0200"
+      "has_stick": "2026-05-22 10:53:59 -0600"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
-      "has_log": "2026-05-22 19:01:48 +0200"
+      "has_log": "2026-05-22 11:01:48 -0600"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
-      "has_logs": "2026-05-22 19:01:48 +0200"
+      "has_logs": "2026-05-22 11:01:48 -0600"
     },
     "done": true
   },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
-      "has_log": "2026-05-22 19:01:48 +0200"
+      "has_log": "2026-05-22 11:01:48 -0600"
     },
     "done": true
   },
   "minecraft:recipes/decorations/cyan_glazed_terracotta": {
     "criteria": {
-      "has_cyan_terracotta": "2026-05-22 20:22:04 +0200"
+      "has_cyan_terracotta": "2026-05-22 12:22:04 -0600"
     },
     "done": true
   },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
-      "has_flint": "2026-05-22 20:36:46 +0200"
+      "has_flint": "2026-05-22 12:36:46 -0600"
     },
     "done": true
   },
   "minecraft:recipes/combat/arrow": {
     "criteria": {
-      "has_flint": "2026-05-22 20:36:46 +0200"
+      "has_flint": "2026-05-22 12:36:46 -0600"
     },
     "done": true
   },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
-      "has_flint": "2026-05-22 20:36:46 +0200"
+      "has_flint": "2026-05-22 12:36:46 -0600"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
-      "has_chiseled_sandstone": "2026-05-22 20:41:05 +0200"
+      "has_chiseled_sandstone": "2026-05-22 12:41:05 -0600"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
-      "has_chiseled_sandstone": "2026-05-22 20:41:05 +0200"
+      "has_chiseled_sandstone": "2026-05-22 12:41:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2026-05-22 13:19:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-05-22 13:20:30 -0600"
     },
     "done": true
   },

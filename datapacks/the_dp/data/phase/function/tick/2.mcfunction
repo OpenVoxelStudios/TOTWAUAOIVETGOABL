@@ -1,0 +1,1 @@
+execute at @n[tag=phase2_door] if entity @p[distance=0..5] run function phase:unlock {phase:3}
