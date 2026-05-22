@@ -1,0 +1,6 @@
+data/steve/function/on_load.mcfunction:6a63b99c074eda4f89a26471f8085a416972ccba
+data/steve/function/vine_wall/reset_all.mcfunction:46f60cf38155cc0d06605fd019353bb69c4c4c22
+data/steve/advancement/vine_wall/break.json:7f5319e248f3a9508eac2a4e0fc5dd49b338b37a
+data/steve/function/vine_wall/zzz/0.mcfunction:ebd3bdd4565025e17dee131ac5acaff41792c9ee
+data/steve/function/vine_wall/break.mcfunction:dd2088eb4402f132108cbff6ad08e2f31b0c50c1
+data/minecraft/tags/function/load.json:f2ae84dab40b77973616df8803f16121c4dbe635

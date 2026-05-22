@@ -1,0 +1,1 @@
+execute if score attack_cooldown bulb matches 1.. run scoreboard players remove attack_cooldown bulb 1

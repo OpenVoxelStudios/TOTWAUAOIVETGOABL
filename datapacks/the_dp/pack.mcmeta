@@ -1,8 +1,13 @@
 {
-    "pack":{
-        "pack_format": 48,
-        "description":[
-            {"text":"\"1.21 Datapack Template, made with <3 by Datapack Hub\"","color":"#FF631A"}
-        ]
-    }
+  "pack": {
+    "pack_format": 101,
+    "description": [
+      {
+        "text": "\"1.21 Datapack Template, made with <3 by Datapack Hub\"",
+        "color": "#FF631A"
+      }
+    ]
+  },
+  "min_format": 94,
+  "max_format": 999
 }

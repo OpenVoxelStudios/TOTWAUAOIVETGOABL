@@ -1,22 +1,28 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 15996,
-      "minecraft:time_since_rest": 75875,
-      "minecraft:walk_one_cm": 27962,
-      "minecraft:total_world_time": 125881,
+      "minecraft:sprint_one_cm": 34676,
+      "minecraft:time_since_rest": 217870,
+      "minecraft:walk_one_cm": 58382,
+      "minecraft:total_world_time": 267876,
       "minecraft:leave_game": 3,
-      "minecraft:fly_one_cm": 93332,
-      "minecraft:crouch_one_cm": 703,
-      "minecraft:sneak_time": 1207,
-      "minecraft:play_time": 75875,
-      "minecraft:jump": 72,
-      "minecraft:time_since_death": 75875
+      "minecraft:fly_one_cm": 157925,
+      "minecraft:crouch_one_cm": 1648,
+      "minecraft:sneak_time": 1629,
+      "minecraft:play_time": 217870,
+      "minecraft:jump": 246,
+      "minecraft:time_since_death": 217870,
+      "minecraft:drop": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:stone_sword": 2
     },
     "minecraft:used": {
+      "minecraft:cyan_terracotta": 8,
       "minecraft:waxed_copper_grate": 17,
       "minecraft:barrier": 8,
       "minecraft:oak_sign": 2,
+      "minecraft:player_head": 3,
       "minecraft:iron_block": 46,
       "minecraft:birch_log": 1
     }

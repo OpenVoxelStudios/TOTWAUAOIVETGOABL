@@ -1,7 +1,8 @@
 function phase:load
 
-function dp:keycard/reset
-function dp:itempicker/reset
+#temp
+function dp:reset
 
 # for autocomplete
 scoreboard objectives add keycard.ids dummy
+scoreboard objectives add itempicker dummy
