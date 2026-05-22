@@ -9,3 +9,4 @@ $data merge entity $(door) {transformation: [-2f,0f,0f,0f,0f,2f,0f,2.8125f,0f,0f
 data modify storage animated_java:temp entry.data merge value {"cameras":{"camera":{"px":9.491012693391988e-16,"py":3.625,"pz":-7.75,"ry":0,"rx":12.5}},"locators":{}}
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
+execute unless entity @s[tag=aj.transforms_only] at @s run function aj:entrance/animations/close/zzz/frames/0_root_function
