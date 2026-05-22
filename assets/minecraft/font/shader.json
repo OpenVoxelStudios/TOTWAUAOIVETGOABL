@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:item/cinematic.png",
+            "ascent": 5000,
+            "height": 10000,
+            "chars": [
+                "\uFF00"
+            ]
+        }
+    ]
+}
