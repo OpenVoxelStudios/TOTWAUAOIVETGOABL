@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"entity.hitbox\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [["a"]],
+  "rewards": {
+    "function": "entity:interaction/hit"
+  }
+}

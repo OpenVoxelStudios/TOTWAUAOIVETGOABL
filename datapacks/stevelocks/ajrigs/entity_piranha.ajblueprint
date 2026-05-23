@@ -465,7 +465,7 @@
 			"override": false,
 			"length": 1,
 			"snapping": 20,
-			"selected": true,
+			"selected": false,
 			"saved": true,
 			"path": "",
 			"scope": 0,
@@ -639,7 +639,7 @@
 							"channel": "function",
 							"data_points": [
 								{
-									"function": "function aj:entity_piranha/animations/small_idle/play\nscoreboard players set @s entity.strength 1\n",
+									"function": "function aj:entity_piranha/animations/small_idle/play\nscoreboard players set @s entity.strength 0\nfunction entity:interaction/spawn {height: 0.5, width: 0.5}\n",
 									"execute_condition": "",
 									"repeat": false,
 									"repeat_frequency": 1
@@ -1052,7 +1052,7 @@
 							"channel": "function",
 							"data_points": [
 								{
-									"function": "function aj:entity_piranha/animations/medium_idle/play\nscoreboard players set @s entity.strength 1\n",
+									"function": "function aj:entity_piranha/animations/medium_idle/play\nscoreboard players set @s entity.strength 1\nfunction entity:interaction/spawn {height: 1, width: 1}\n",
 									"execute_condition": "",
 									"repeat": false,
 									"repeat_frequency": 1
@@ -1257,7 +1257,7 @@
 			"override": false,
 			"length": 1,
 			"snapping": 20,
-			"selected": false,
+			"selected": true,
 			"saved": true,
 			"path": "",
 			"scope": 0,
@@ -1482,7 +1482,7 @@
 							"channel": "function",
 							"data_points": [
 								{
-									"function": "function aj:entity_piranha/animations/large_idle/play\nscoreboard players set @s entity.strength 3\n",
+									"function": "function aj:entity_piranha/animations/large_idle/play\nscoreboard players set @s entity.strength 2\nfunction entity:interaction/spawn {height: 2, width: 1}\n",
 									"execute_condition": "",
 									"repeat": false,
 									"repeat_frequency": 1

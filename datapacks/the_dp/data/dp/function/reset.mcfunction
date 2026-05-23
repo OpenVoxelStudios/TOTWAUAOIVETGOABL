@@ -1,6 +1,7 @@
 function phase:reset
 
-function entity:reset
+# TODO: un-comment this
+# function entity:reset
 function dp:keycard/reset
 function dp:itempicker/reset
 

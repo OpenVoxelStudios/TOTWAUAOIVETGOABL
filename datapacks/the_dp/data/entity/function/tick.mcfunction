@@ -1,4 +1,5 @@
 scoreboard players add @e[scores={entity.growth=0..}] entity.growth 1
+# TODO: make the 250 a variable that decreases with difficulty.
 scoreboard players set @e[scores={entity.growth=250..}] entity.should_grow 1
 
 # Entity ticks
