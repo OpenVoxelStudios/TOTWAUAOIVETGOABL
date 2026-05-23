@@ -2,4 +2,4 @@
 #!   entity: string
 #! }
 
-$function entity:$(entity)/summon
+$execute at @s run function entity:$(entity)/summon

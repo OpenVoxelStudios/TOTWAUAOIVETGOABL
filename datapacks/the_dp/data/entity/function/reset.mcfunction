@@ -1,0 +1,1 @@
+kill @e[tag=entity.kill_when_reset]
