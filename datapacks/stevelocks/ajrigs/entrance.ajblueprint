@@ -3,7 +3,7 @@
 		"format": "animated-java:format/blueprint",
 		"format_version": "1.10.0-beta.6",
 		"uuid": "c3dac309-ad04-168e-d4be-83c8f086b283",
-		"save_location": "/Users/School/Library/Application Support/minecraft/26.1.2/saves/overgrowthmapjam/datapacks/stevelocks/ajrigs/entrance.ajblueprint",
+		"save_location": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/saves/the game jam™/datapacks/stevelocks/ajrigs/entrance.ajblueprint",
 		"last_used_blueprint_id": "aj:entrance"
 	},
 	"resolution": {
@@ -13,8 +13,8 @@
 	"blueprint_settings": {
 		"blueprint_id": "aj:entrance",
 		"render_box": [48, 48],
-		"resource_pack": "/Users/School/Library/Application Support/minecraft/26.1.2/resourcepacks/overgrowth",
-		"data_pack": "/Users/School/Library/Application Support/minecraft/26.1.2/saves/overgrowthmapjam/datapacks/stevelocks"
+		"resource_pack": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/resourcepacks/the_rp",
+		"data_pack": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/saves/the game jam™/datapacks/stevelocks"
 	},
 	"elements": [
 		{
@@ -645,9 +645,6 @@
 			"frame_order_type": "loop",
 			"frame_order": "",
 			"frame_interpolate": false,
-			"downscale_target_width": 0,
-			"downscale_target_height": 0,
-			"downscale_filter": "",
 			"visible": true,
 			"internal": true,
 			"saved": false,
@@ -1416,7 +1413,8 @@
 							"time": 2.35,
 							"color": -1,
 							"interpolation": "linear",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "function",

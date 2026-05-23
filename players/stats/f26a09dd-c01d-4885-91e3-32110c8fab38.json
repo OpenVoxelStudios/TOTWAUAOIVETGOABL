@@ -1,53 +1,60 @@
 {
   "stats": {
+    "minecraft:picked_up": {
+      "minecraft:stone_sword": 1,
+      "minecraft:flint": 4
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 269157,
+      "minecraft:walk_one_cm": 159802,
+      "minecraft:leave_game": 8,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 240,
+      "minecraft:play_time": 576766,
+      "minecraft:jump": 1188,
+      "minecraft:time_since_death": 269099,
+      "minecraft:drop": 7,
+      "minecraft:sprint_one_cm": 169851,
+      "minecraft:fall_one_cm": 3725,
+      "minecraft:total_world_time": 638523,
+      "minecraft:fly_one_cm": 909122,
+      "minecraft:crouch_one_cm": 7059,
+      "minecraft:sneak_time": 5512,
+      "minecraft:climb_one_cm": 1708,
+      "minecraft:deaths": 1
+    },
     "minecraft:used": {
       "minecraft:waxed_exposed_copper_chain": 9,
       "minecraft:polished_tuff": 346,
       "minecraft:waxed_exposed_cut_copper": 4,
-      "minecraft:redstone_block": 1,
       "minecraft:player_head": 3,
       "minecraft:waxed_copper_bars": 11,
       "minecraft:waxed_exposed_copper_grate": 4,
       "minecraft:iron_block": 77,
-      "minecraft:waxed_weathered_copper_chain": 2,
+      "minecraft:oak_sign": 3,
+      "minecraft:command_block": 2,
+      "minecraft:blue_egg": 18,
+      "minecraft:waxed_exposed_copper_bars": 4,
+      "minecraft:chiseled_sandstone": 2,
+      "minecraft:smooth_stone": 2,
+      "minecraft:redstone_block": 2,
       "minecraft:birch_log": 1,
       "minecraft:waxed_copper_chain": 7,
+      "minecraft:waxed_weathered_copper_chain": 2,
       "minecraft:oak_log": 2,
-      "minecraft:cyan_terracotta": 31,
+      "minecraft:cyan_terracotta": 32,
       "minecraft:waxed_copper_bulb": 1,
       "minecraft:waxed_copper_grate": 18,
       "minecraft:waxed_oxidized_copper_grate": 1,
       "minecraft:barrier": 10,
-      "minecraft:oak_sign": 2,
-      "minecraft:blue_egg": 18,
-      "minecraft:tuff_bricks": 8,
-      "minecraft:waxed_exposed_copper_bars": 4,
-      "minecraft:chiseled_sandstone": 2
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 72979,
-      "minecraft:walk_one_cm": 106099,
-      "minecraft:leave_game": 6,
-      "minecraft:mob_kills": 1,
-      "minecraft:damage_taken": 240,
-      "minecraft:play_time": 380588,
-      "minecraft:jump": 814,
-      "minecraft:time_since_death": 72921,
-      "minecraft:drop": 6,
-      "minecraft:sprint_one_cm": 96036,
-      "minecraft:total_world_time": 430594,
-      "minecraft:fly_one_cm": 648839,
-      "minecraft:crouch_one_cm": 5727,
-      "minecraft:sneak_time": 4332,
-      "minecraft:deaths": 1
+      "minecraft:warped_sign": 1,
+      "minecraft:tuff_bricks": 8
     },
     "minecraft:dropped": {
       "minecraft:waxed_copper_grate": 1,
       "minecraft:iron_shovel": 1,
-      "minecraft:stone_sword": 4
-    },
-    "minecraft:picked_up": {
-      "minecraft:stone_sword": 1
+      "minecraft:stone_sword": 4,
+      "minecraft:flint": 1
     }
   },
   "DataVersion": 4790

@@ -3,7 +3,7 @@
 		"format": "animated-java:format/blueprint",
 		"format_version": "1.10.0-beta.6",
 		"uuid": "29e70906-cac6-cd63-5737-ef68d6b2bb68",
-		"save_location": "/Users/School/Library/Application Support/minecraft/26.1.2/saves/overgrowth thingy/datapacks/stevelocks/ajrigs/vine_wall.ajblueprint",
+		"save_location": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/saves/the game jam™/datapacks/stevelocks/ajrigs/vine_wall.ajblueprint",
 		"last_used_blueprint_id": "aj:vine_wall"
 	},
 	"resolution": {
@@ -13,8 +13,8 @@
 	"blueprint_settings": {
 		"blueprint_id": "aj:vine_wall",
 		"render_box": [48, 48],
-		"resource_pack": "/Users/School/Library/Application Support/minecraft/26.1.2/resourcepacks/overgrowth",
-		"data_pack": "/Users/School/Library/Application Support/minecraft/26.1.2/saves/overgrowth thingy/datapacks/stevelocks"
+		"resource_pack": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/resourcepacks/the_rp",
+		"data_pack": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/saves/the game jam™/datapacks/stevelocks"
 	},
 	"elements": [
 		{
@@ -147,9 +147,6 @@
 			"frame_order_type": "loop",
 			"frame_order": "",
 			"frame_interpolate": false,
-			"downscale_target_width": 0,
-			"downscale_target_height": 0,
-			"downscale_filter": "",
 			"visible": true,
 			"internal": true,
 			"saved": false,
@@ -230,26 +227,7 @@
 				},
 				"effects": {
 					"name": "Effects",
-					"type": "effect",
-					"keyframes": [
-						{
-							"channel": "function",
-							"data_points": [
-								{
-									"function": "fill ^ ^ ^ ^-3 ^3 ^ air",
-									"execute_condition": "",
-									"repeat": false,
-									"repeat_frequency": 1
-								}
-							],
-							"uuid": "e3e26a77-a3f2-c093-1445-bd68add3e85e",
-							"time": 0.65,
-							"color": -1,
-							"interpolation": "linear",
-							"easing": "linear",
-							"easingArgs": []
-						}
-					]
+					"type": "effect"
 				},
 				"44935762-6c93-5387-b8bd-a1637513790e": {
 					"name": "locator",
@@ -306,26 +284,7 @@
 				},
 				"effects": {
 					"name": "Effects",
-					"type": "effect",
-					"keyframes": [
-						{
-							"channel": "function",
-							"data_points": [
-								{
-									"function": "fill ^ ^ ^ ^-3 ^3 ^ barrier",
-									"execute_condition": "",
-									"repeat": false,
-									"repeat_frequency": 1
-								}
-							],
-							"uuid": "6c8d579e-6ec3-a61f-cb6a-ff64ecf7d1d6",
-							"time": 0,
-							"color": -1,
-							"interpolation": "linear",
-							"easing": "linear",
-							"easingArgs": []
-						}
-					]
+					"type": "effect"
 				},
 				"44935762-6c93-5387-b8bd-a1637513790e": {
 					"name": "locator",
@@ -382,26 +341,7 @@
 				},
 				"effects": {
 					"name": "Effects",
-					"type": "effect",
-					"keyframes": [
-						{
-							"channel": "function",
-							"data_points": [
-								{
-									"function": "fill ^ ^ ^ ^-3 ^3 ^ barrier",
-									"execute_condition": "",
-									"repeat": false,
-									"repeat_frequency": 1
-								}
-							],
-							"uuid": "6c8d579e-6ec3-a61f-cb6a-ff64ecf7d1d6",
-							"time": 0,
-							"color": -1,
-							"interpolation": "linear",
-							"easing": "linear",
-							"easingArgs": []
-						}
-					]
+					"type": "effect"
 				},
 				"44935762-6c93-5387-b8bd-a1637513790e": {
 					"name": "locator",

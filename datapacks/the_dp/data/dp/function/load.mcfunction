@@ -1,5 +1,3 @@
-function phase:load
-
 #temp
 function dp:reset
 

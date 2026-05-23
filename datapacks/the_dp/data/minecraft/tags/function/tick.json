@@ -1,3 +1,3 @@
 {
-    "values":["dp:main","phase:tick"] 
+    "values":["dp:main","phase:tick", "entity:tick"] 
 }

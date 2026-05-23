@@ -1,5 +1,6 @@
 function phase:reset
 
+function entity:reset
 function dp:keycard/reset
 function dp:itempicker/reset
 
