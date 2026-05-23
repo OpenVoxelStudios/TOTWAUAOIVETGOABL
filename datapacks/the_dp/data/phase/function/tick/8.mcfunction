@@ -1,0 +1,1 @@
+#smth that does generator puzzle tick

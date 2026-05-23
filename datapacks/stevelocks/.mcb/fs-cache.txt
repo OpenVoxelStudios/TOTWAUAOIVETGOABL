@@ -1,4 +1,6 @@
 data/steve/function/load.mcfunction:6a63b99c074eda4f89a26471f8085a416972ccba
+data/steve/function/tick.mcfunction:68701210f594c2ae9adad21c94ee73922c6dd4a4
+data/steve/predicate/leaves.json:5e8908ac4a170c59906733ba19e0e291b12ed1a4
 data/steve/function/vine_wall/reset_all.mcfunction:46f60cf38155cc0d06605fd019353bb69c4c4c22
 data/steve/advancement/vine_wall/break.json:7f5319e248f3a9508eac2a4e0fc5dd49b338b37a
 data/steve/function/vine_wall/zzz/0.mcfunction:ebd3bdd4565025e17dee131ac5acaff41792c9ee

@@ -1,0 +1,1 @@
+execute positioned -29 -52 8 if entity @p[tag=!dead,distance=0..4] run function phase:unlock {phase:6}

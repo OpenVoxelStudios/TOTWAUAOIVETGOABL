@@ -5,6 +5,27 @@ function load {
 
 }
 
+function tick {
+    execute as @e[tag=falling_leaves,predicate=steve:leaves] at @s run particle minecraft:tinted_leaves{color:[0.3176470588,0.568627451,0.2,1.0]} ~ ~ ~ 0.5 0.5 0.5 0 2 normal @a
+}
+
+predicate leaves {
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"periodic_tick": 25
+			}
+		},
+		{
+			"condition": "minecraft:random_chance",
+			"chance": 0.1
+		}
+	]
+}
+
 dir vine_wall {
 
     function reset_all {

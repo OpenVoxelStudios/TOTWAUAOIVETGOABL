@@ -7,3 +7,4 @@ execute if score phase phase matches 5 run function phase:tick/5
 execute if score phase phase matches 6 run function phase:tick/6
 execute if score phase phase matches 7 run function phase:tick/7
 execute if score phase phase matches 8 run function phase:tick/8
+execute if score phase phase matches 9 run function phase:tick/9
