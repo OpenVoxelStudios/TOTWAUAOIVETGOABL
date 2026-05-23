@@ -1,0 +1,59 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Openvoxel Studios",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "minecraft:item/custom/keycard",
+		"particle": "minecraft:item/custom/keycard"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 7.5],
+			"to": [11, 10, 8.5],
+			"rotation": {"angle": -0.09749, "axis": "x", "origin": [7, 0, 8.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 5], "texture": "#0"},
+				"east": {"uv": [0, 5, 0.5, 10], "texture": "#0"},
+				"south": {"uv": [3, 0, 0, 5], "texture": "#0"},
+				"west": {"uv": [0.5, 5, 1, 10], "texture": "#0"},
+				"up": {"uv": [4, 5.5, 1, 5], "texture": "#0"},
+				"down": {"uv": [7, 5, 4, 5.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-0.75, 3.5, 0.75],
+			"scale": [0.62, 0.62, 0.62]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-1, 2.75, 0.25],
+			"scale": [0.62, 0.62, 0.62]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 84, 0],
+			"translation": [0, 6, 0],
+			"scale": [0.86, 0.86, 0.86]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, -79.5, -180],
+			"translation": [0, 6, 0],
+			"scale": [0.86, 0.86, 0.86]
+		},
+		"ground": {
+			"translation": [0, 6.75, 0]
+		},
+		"gui": {
+			"rotation": [0, 0, -39],
+			"translation": [2.25, 2.5, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"translation": [0, 17.25, -1]
+		},
+		"fixed": {
+			"translation": [0, 2.5, 0]
+		}
+	}
+}

@@ -1,0 +1,68 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+            {
+                "when": "fire_extinquisher",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/fire_extinquisher"
+                }
+            },
+            {
+                "when": "keycard_reader",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/keycard_reader"
+                }
+            },
+            {
+                "when": "keycard",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/keycard"
+                }
+            },
+            {
+                "when": "skybox",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/skybox"
+                }
+            },
+            {
+                "when": "godrays1",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/godrays1"
+                }
+            },
+            {
+                "when": "godrays2",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/godrays2"
+                }
+            },
+            {
+                "when": "godrays3",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/godrays3"
+                }
+            },
+            {
+                "when": "bigdoor",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/bigdoor"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/flint"
+        }
+    }
+}

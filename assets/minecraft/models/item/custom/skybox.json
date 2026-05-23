@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Openvoxel Studios",
+	"texture_size": [4, 2],
+	"textures": {
+		"0": "item/skybox",
+		"particle": "item/skybox"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [1, 2, 5, 10], "texture": "#0"},
+				"east": {"uv": [1, 2, 5, 10], "texture": "#0"},
+				"south": {"uv": [1, 2, 5, 10], "texture": "#0"},
+				"west": {"uv": [1, 2, 5, 10], "texture": "#0"},
+				"up": {"uv": [1, 2, 5, 10], "texture": "#0"},
+				"down": {"uv": [1, 2, 5, 10], "texture": "#0"}
+			}
+		}
+	]
+}
