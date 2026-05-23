@@ -1,0 +1,1 @@
+execute as @e[tag=keycard.display,type=text_display] run data modify entity @s background set value 0
