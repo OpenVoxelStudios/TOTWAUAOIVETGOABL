@@ -12,10 +12,10 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:entrance"
-data modify storage animated_java:temp entry.data.rig_hash set value "8fbb365caffd891e4458934bbd4d5fed895adc8e2ac791c69ffb47f626b41ad1"
+data modify storage animated_java:temp entry.data.rig_hash set value "077935f8bc485c8acc6b682cbd4ab0cde06d9a461f370581b48593c110bd661e"
 tp @s ~ ~ ~ ~ ~
 summon minecraft:item_display ^0 ^2.625 ^-4 {Tags:["","aj.entrance.camera","aj.entrance.camera.camera","aj.entrance.entity","aj.entrance.node","aj.entrance.node.camera","aj.global.camera","aj.global.entity","aj.global.node","aj.global.node.camera","aj.global.root.child","aj.global.root.child.camera","aj.new"], teleport_duration: 2}
-execute as @n[ type=minecraft:item_display, tag=aj.entrance.camera.camera, tag=aj.new, distance=..10 ] run function aj:entrance/zzz/summon/as_camera/camera
+execute as @n[ type=minecraft:item_display, tag=aj.entrance.camera.camera, tag=aj.new, distance=..9 ] run function aj:entrance/zzz/summon/as_camera/camera
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.camera set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.cameras.camera.uuid set from storage animated_java:gu out
