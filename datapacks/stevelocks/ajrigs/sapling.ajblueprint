@@ -13,7 +13,8 @@
 	"blueprint_settings": {
 		"blueprint_id": "aj:entity_sapling",
 		"resource_pack": "/Users/School/Library/Application Support/minecraft/26.1.2/resourcepacks/overgrowth",
-		"data_pack": "/Users/School/Library/Application Support/minecraft/26.1.2/saves/overgrowthmapjam/datapacks/stevelocks"
+		"data_pack": "/Users/School/Library/Application Support/minecraft/26.1.2/saves/overgrowthmapjam/datapacks/stevelocks",
+		"custom_rig_entity_tags": "entity.kill_when_reset"
 	},
 	"elements": [
 		{

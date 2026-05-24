@@ -10,14 +10,15 @@ execute if score OPERATION_TEMP entity.strength matches -1 run return run say th
 execute if score OPERATION_TEMP entity.strength matches 0 run return run function aj:entity_sapling/as_root {command:'function entity:interaction/damage'}
 
 # 1 = needs any item {weapon: 1b}
-execute if score OPERATION_TEMP entity.strength matches 1 if items entity @p[tag=target] weapon.mainhand *[minecraft:custom_data~{weapon:1b}] run return run function aj:entity_sapling/as_root {command:'function entity:interaction/damage'}
+execute if score OPERATION_TEMP entity.strength matches 1 if items entity @p[tag=target] weapon.mainhand *[minecraft:custom_data~{weapon: 1b}] run return run function aj:entity_sapling/as_root {command:'function entity:interaction/damage'}
 
 # 2 = strong item {weapon: 1b, strong: 1b}
-execute if score OPERATION_TEMP entity.strength matches 2 if items entity @p[tag=target] weapon.mainhand *[minecraft:custom_data~{weapon:1b, strong: 1b}] run return run function aj:entity_sapling/as_root {command:'function entity:interaction/damage'}
+execute if score OPERATION_TEMP entity.strength matches 2 if items entity @p[tag=target] weapon.mainhand *[minecraft:custom_data~{weapon: 1b, strong: 1b}] run return run function aj:entity_sapling/as_root {command:'function entity:interaction/damage'}
+execute if score OPERATION_TEMP entity.strength matches 2 if items entity @p[tag=target] weapon.mainhand *[minecraft:custom_data~{weapon: 1b, strongest: 1b}] run return run function aj:entity_sapling/as_root {command:'function entity:interaction/damage'}
 
 # 3 = super strong item {weapon: 1b, strongest: 1b}
 # reserve for liquid nitrogen
-execute if score OPERATION_TEMP entity.strength matches 3 if items entity @p[tag=target] weapon.mainhand *[minecraft:custom_data~{weapon:1b, strongest: 1b}] run return run function aj:entity_sapling/as_root {command:'function entity:interaction/damage'}
+execute if score OPERATION_TEMP entity.strength matches 3 if items entity @p[tag=target] weapon.mainhand *[minecraft:custom_data~{weapon: 1b, strongest: 1b}] run return run function aj:entity_sapling/as_root {command:'function entity:interaction/damage'}
 
 
 # fallback

@@ -1,2 +1,2 @@
-tp @a 28.5 -59.0 66.5 180 8
+tp @a @n[tag=lobby.tp]
 gamemode adventure @a

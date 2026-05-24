@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"lobby.start\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [["a"]],
+  "rewards": {
+    "function": "dp:lobby/start"
+  }
+}

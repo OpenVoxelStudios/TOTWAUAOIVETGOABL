@@ -1,0 +1,1 @@
+$function aj:entity_$(plant)/animations/pause_all
