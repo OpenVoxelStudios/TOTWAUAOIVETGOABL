@@ -1,3 +1,4 @@
+fill 25 -58 47 26 -60 47 air
 fill 25 -58 48 26 -60 48 air
 
 gamemode spectator @a[tag=!dead]
