@@ -1,0 +1,11 @@
+{
+  "effects.door_open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "dp:effects/door_open"
+      }
+    ],
+    "preload": true
+  }
+}
