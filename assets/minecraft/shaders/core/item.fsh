@@ -4,6 +4,7 @@
 #moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:globals.glsl>
 #moj_import <minecraft:perlin.glsl>
+#moj_import <minecraft:vines.glsl>
 
 uniform sampler2D Sampler0;
 
@@ -12,6 +13,8 @@ in float cylindricalVertexDistance;
 in vec4 vertexColor;
 in vec2 texCoord0;
 in vec3 pos;
+flat in int vines;
+in vec4 raw_vertexColor;
 
 out vec4 fragColor;
 
@@ -42,6 +45,29 @@ void main() {
         fragColor = vec4(godray_color,texture(Sampler0, texCoord0).r/0.9);
         if (fragColor.a < 0.001) discard;
     }
+
+    if (vines == 1) {
+        special_shader = true;
+        fragColor = vines_fragment(
+            (CameraBlockPos - CameraOffset + pos)
+            + vec3(raw_vertexColor.g * 40),
+
+            GameTime * 200
+             * (
+                raw_vertexColor.b * ((1 - raw_vertexColor.r) * 3) > 0.1
+                    ? raw_vertexColor.b * ((1 - raw_vertexColor.r) * 3)
+                    : 1
+            ),
+
+            raw_vertexColor.b
+        );
+        
+        fragColor.a = easeOutPow(fragColor.a);
+        if (fragColor.a < 0.2) discard;
+        fragColor = apply_fog(fragColor, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
+        
+    }
+
     #ifdef ALPHA_CUTOUT
     if (color.a < ALPHA_CUTOUT && !special_shader) {
         discard;

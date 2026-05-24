@@ -1,5 +1,7 @@
 #version 330
 
+#moj_import <minecraft:globals.glsl>
+
 layout(std140) uniform LightmapInfo {
     float SkyFactor;
     float BlockFactor;
@@ -59,6 +61,18 @@ void main() {
         vec3(1.0),
         pow(parabolicMixFactor(block_level), 1.25)
     );
+
+    //3 -53 12 -32 -48 3
+    //-6 -48 12 -32 -53 18
+    if (
+        (all(greaterThan(CameraBlockPos - CameraOffset, vec3(-32, -53, 3))) &&
+        all(lessThan(CameraBlockPos - CameraOffset, vec3(3, -47, 15))))
+        ||
+        (all(greaterThan(CameraBlockPos - CameraOffset, vec3(-32, -53, 12))) &&
+        all(lessThan(CameraBlockPos - CameraOffset, vec3(-6, -47, 18))))
+    ) {
+        BlockLightColor = vec3(0.8, 0.2, 0.2);
+    }
 
     color += BlockLightColor * block_brightness;
 

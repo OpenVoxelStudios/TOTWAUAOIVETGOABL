@@ -58,6 +58,27 @@
                     "type": "minecraft:model",
                     "model": "item/custom/bigdoor"
                 }
+            },
+            {
+                "when": "ground_vines",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/ground_vines",
+                    "tints": [
+                        {
+                            "type": "custom_model_data",
+                            "default": [1,1,1],
+                            "index": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "garden_bed",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/garden_bed"
+                }
             }
         ],
         "fallback": {
