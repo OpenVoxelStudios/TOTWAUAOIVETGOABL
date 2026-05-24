@@ -1,31 +1,5 @@
 {
   "stats": {
-    "minecraft:picked_up": {
-      "minecraft:stone_sword": 1,
-      "minecraft:stick": 2,
-      "minecraft:flint": 4,
-      "minecraft:stone": 1
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 437543,
-      "minecraft:walk_one_cm": 224260,
-      "minecraft:leave_game": 8,
-      "minecraft:mob_kills": 1,
-      "minecraft:damage_taken": 240,
-      "minecraft:play_time": 745152,
-      "minecraft:jump": 1535,
-      "minecraft:time_since_death": 437485,
-      "minecraft:drop": 7,
-      "minecraft:sprint_one_cm": 229674,
-      "minecraft:fall_one_cm": 6688,
-      "minecraft:total_world_time": 1246377,
-      "minecraft:fly_one_cm": 1247199,
-      "minecraft:walk_on_water_one_cm": 58,
-      "minecraft:crouch_one_cm": 7969,
-      "minecraft:sneak_time": 7254,
-      "minecraft:climb_one_cm": 2421,
-      "minecraft:deaths": 1
-    },
     "minecraft:used": {
       "minecraft:waxed_exposed_copper_chain": 9,
       "minecraft:polished_tuff": 347,
@@ -52,7 +26,7 @@
       "minecraft:waxed_weathered_copper_chain": 2,
       "minecraft:oak_log": 2,
       "minecraft:tall_grass": 2,
-      "minecraft:cyan_terracotta": 35,
+      "minecraft:cyan_terracotta": 39,
       "minecraft:waxed_copper_bulb": 1,
       "minecraft:waxed_copper_grate": 18,
       "minecraft:waxed_oxidized_copper_grate": 1,
@@ -62,11 +36,37 @@
       "minecraft:warped_sign": 1,
       "minecraft:tuff_bricks": 11
     },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 483086,
+      "minecraft:walk_one_cm": 240428,
+      "minecraft:leave_game": 10,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 240,
+      "minecraft:play_time": 790695,
+      "minecraft:jump": 1590,
+      "minecraft:time_since_death": 483028,
+      "minecraft:drop": 7,
+      "minecraft:sprint_one_cm": 239993,
+      "minecraft:fall_one_cm": 6688,
+      "minecraft:total_world_time": 1291920,
+      "minecraft:fly_one_cm": 1332055,
+      "minecraft:walk_on_water_one_cm": 58,
+      "minecraft:crouch_one_cm": 7982,
+      "minecraft:sneak_time": 7512,
+      "minecraft:climb_one_cm": 2421,
+      "minecraft:deaths": 1
+    },
     "minecraft:dropped": {
       "minecraft:waxed_copper_grate": 1,
       "minecraft:iron_shovel": 1,
       "minecraft:stone_sword": 4,
       "minecraft:flint": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:stone_sword": 1,
+      "minecraft:stick": 2,
+      "minecraft:flint": 4,
+      "minecraft:stone": 1
     }
   },
   "DataVersion": 4790

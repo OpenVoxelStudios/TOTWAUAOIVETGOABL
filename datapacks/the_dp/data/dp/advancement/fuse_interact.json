@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"generator.fuse.interaction\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [["a"]],
+  "rewards": {
+    "function": "dp:generator/clicked"
+  }
+}

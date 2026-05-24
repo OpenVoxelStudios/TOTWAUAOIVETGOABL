@@ -5,8 +5,8 @@
       "minecraft:polished_tuff": 42,
       "minecraft:skeleton_skull": 1,
       "minecraft:dark_oak_leaves": 649,
-      "minecraft:cyan_terracotta": 154,
       "minecraft:black_concrete": 52,
+      "minecraft:cyan_terracotta": 154,
       "minecraft:water_bucket": 4,
       "minecraft:bone_meal": 8,
       "minecraft:deepslate_tiles": 3,
@@ -18,24 +18,26 @@
       "minecraft:iron_shovel": 2
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 197257,
-      "minecraft:walk_one_cm": 61781,
-      "minecraft:leave_game": 2,
+      "minecraft:time_since_rest": 282395,
+      "minecraft:walk_one_cm": 97804,
+      "minecraft:leave_game": 4,
       "minecraft:damage_dealt": 50,
-      "minecraft:play_time": 197257,
-      "minecraft:jump": 2507,
-      "minecraft:time_since_death": 197257,
-      "minecraft:sprint_one_cm": 243875,
-      "minecraft:fall_one_cm": 16528,
-      "minecraft:total_world_time": 197257,
-      "minecraft:fly_one_cm": 1539881,
-      "minecraft:walk_on_water_one_cm": 224,
-      "minecraft:crouch_one_cm": 553,
-      "minecraft:sneak_time": 4427,
-      "minecraft:climb_one_cm": 1171
+      "minecraft:play_time": 282395,
+      "minecraft:jump": 3658,
+      "minecraft:time_since_death": 282395,
+      "minecraft:sprint_one_cm": 340685,
+      "minecraft:fall_one_cm": 40464,
+      "minecraft:total_world_time": 282395,
+      "minecraft:fly_one_cm": 1864436,
+      "minecraft:walk_on_water_one_cm": 1012,
+      "minecraft:crouch_one_cm": 2652,
+      "minecraft:sneak_time": 5471,
+      "minecraft:climb_one_cm": 1675
     },
     "minecraft:picked_up": {
-      "minecraft:flint": 1
+      "minecraft:copper_shovel": 1,
+      "minecraft:flint": 1,
+      "minecraft:iron_shovel": 1
     }
   },
   "DataVersion": 4790

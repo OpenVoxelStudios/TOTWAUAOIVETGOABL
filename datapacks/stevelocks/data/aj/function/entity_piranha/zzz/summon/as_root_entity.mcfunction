@@ -12,17 +12,18 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:entity_piranha"
-data modify storage animated_java:temp entry.data.rig_hash set value "9837f930286de28f82d5ae46f9c3a0b6bfb9182528b98164afbd6590993f964b"
+data modify storage animated_java:temp entry.data.rig_hash set value "f25dac8e9a1c259e6b07e5ff946d3a5d9043e7b948746dfb00b31e7841a0bbcf"
 tp @s ~ ~ ~ ~ ~
-execute on passengers if entity @s[tag=aj.entity_piranha.node.small] run function aj:entity_piranha/zzz/summon/as_node/small
+summon minecraft:interaction ^0 ^0 ^0 {Tags:["aj.entity_piranha.bone.root.child","aj.entity_piranha.bone.root.child.locator","aj.entity_piranha.bone.root.decendant","aj.entity_piranha.bone.root.decendant.locator","aj.entity_piranha.bone.root.tree","aj.entity_piranha.entity","aj.entity_piranha.locator","aj.entity_piranha.locator.entity_hitbox","aj.entity_piranha.node","aj.entity_piranha.node.entity_hitbox","aj.global.bone.root.child","aj.global.bone.root.child.locator","aj.global.bone.root.decendant","aj.global.bone.root.decendant.locator","aj.global.bone.root.tree","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.entity_hitbox","aj.new","entity.kill_when_reset"]}
+execute as @n[ type=minecraft:interaction, tag=aj.entity_piranha.locator.entity_hitbox, tag=aj.new, distance=..1 ] run function aj:entity_piranha/zzz/summon/as_locator/entity_hitbox
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.small set from storage animated_java:gu out
-execute on passengers if entity @s[tag=aj.entity_piranha.node.medium] run function aj:entity_piranha/zzz/summon/as_node/medium
+data modify storage animated_java:temp entry.data.uuids_by_name.entity_hitbox set from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.locators.entity_hitbox.uuid set from storage animated_java:gu out
+execute on passengers if entity @s[tag=aj.entity_piranha.node.root] run function aj:entity_piranha/zzz/summon/as_node/root
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.medium set from storage animated_java:gu out
-execute on passengers if entity @s[tag=aj.entity_piranha.node.final] run function aj:entity_piranha/zzz/summon/as_node/final
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.final set from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.uuids_by_name.root set from storage animated_java:gu out
+function aj:entity_piranha/zzz/summon/zzz/0 with storage animated_java:temp entry.data.locators.entity_hitbox
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:temp uuids
 function aj:entity_piranha/zzz/set_default_pose
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
@@ -30,9 +31,11 @@ execute if data storage animated_java:temp args.variant run function aj:entity_p
 execute if score #success aj.i matches 0 run return fail
 execute if data storage animated_java:temp args.animation run function aj:entity_piranha/zzz/summon/animation_arg/process with storage animated_java:temp args
 execute if score #success aj.i matches 0 run return fail
+function aj:entity_piranha/root/on_tick/transform_floating_entities
 execute on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 1
 execute on passengers run data modify entity @s teleport_duration set value 1
+function aj:entity_piranha/zzz/summon/zzz/1 with storage animated_java:temp entry.data.locators.entity_hitbox
 execute at @s run function aj:entity_piranha/zzz/summon/on_summon/rig
 tag @s remove aj.new
 execute on passengers run tag @s remove aj.new

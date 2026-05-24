@@ -4,7 +4,7 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"entity.hitbox\"]}"
+          "nbt": "{Tags:[\"aj.global.node.entity_hitbox\"]}"
         }
       }
     }

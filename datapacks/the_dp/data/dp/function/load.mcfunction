@@ -2,6 +2,7 @@
 function dp:reset
 
 # for autocomplete
+scoreboard objectives add generator.fuses dummy
 scoreboard objectives add keycard.ids dummy
 scoreboard objectives add itempicker dummy
 

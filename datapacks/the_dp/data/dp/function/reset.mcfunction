@@ -4,6 +4,7 @@ function phase:reset
 # function entity:reset
 function dp:keycard/reset
 function dp:itempicker/reset
+function dp:generator/reset
 
 function dp:story/reset
 
