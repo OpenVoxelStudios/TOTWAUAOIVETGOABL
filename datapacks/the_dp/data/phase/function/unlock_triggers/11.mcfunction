@@ -1,4 +1,6 @@
+fill 25 -58 48 26 -60 48 air
 
-#now spawn more plants.
+gamemode spectator @a[tag=!dead]
 
-say win
+execute at @e[tag=aj.entrance.root] as @p[tag=!dead] run function aj:entrance/apply_skin
+execute as @e[tag=aj.entrance.root] run function aj:entrance/animations/leave/play
