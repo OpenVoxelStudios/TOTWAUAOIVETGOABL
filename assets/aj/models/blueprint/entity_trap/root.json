@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"1": "aj:blueprint/entity_trap/spore_blossom_base",
+		"1": "minecraft:block/spore_blossom_base",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {

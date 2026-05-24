@@ -30,9 +30,7 @@
 				"assets/aj/models/blueprint/entity_trap/petal2.json",
 				"assets/aj/models/blueprint/entity_trap/petal3.json",
 				"assets/aj/models/blueprint/entity_trap/petal4.json",
-				"assets/aj/models/blueprint/entity_trap/root.json",
-				"assets/aj/textures/blueprint/entity_trap/spore_blossom.png",
-				"assets/aj/textures/blueprint/entity_trap/spore_blossom_base.png"
+				"assets/aj/models/blueprint/entity_trap/root.json"
 			]
 		},
 		"aj:entrance": {

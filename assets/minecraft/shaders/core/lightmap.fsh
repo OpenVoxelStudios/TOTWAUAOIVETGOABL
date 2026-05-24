@@ -70,6 +70,9 @@ void main() {
         ||
         (all(greaterThan(CameraBlockPos - CameraOffset, vec3(-32, -53, 12))) &&
         all(lessThan(CameraBlockPos - CameraOffset, vec3(-6, -47, 18))))
+        ||
+        (all(greaterThan(CameraBlockPos - CameraOffset, vec3(-23, -55, -68))) &&
+        all(lessThan(CameraBlockPos - CameraOffset, vec3(24, -50, -21))))
     ) {
         BlockLightColor = vec3(0.8, 0.2, 0.2);
     }
