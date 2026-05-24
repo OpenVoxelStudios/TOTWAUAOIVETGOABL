@@ -13,7 +13,7 @@ data modify entity @n[type=interaction,tag=phase1_bulb] height set value 2
 data modify entity @n[type=item_display,tag=ground_vines] transformation.translation[1] set value -0.1
 data modify entity @n[type=item_display,tag=ground_vines] item.components."minecraft:custom_model_data".colors set value [[1,0,1]]
 
-data modify entity @n[type=item_display,tag=ambient_ground_vines] item.components."minecraft:custom_model_data".colors set value [[1,0.5,0.2]]
+data modify entity @n[type=item_display,tag=ambient_ground_vines] item.components."minecraft:custom_model_data".colors set value [[1,0.5,0.05]]
 
 
 #phase 2, which closes the door

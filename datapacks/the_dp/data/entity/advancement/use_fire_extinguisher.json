@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": ["fire_extinguisher"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["a"]],
+  "rewards": {
+    "function": "entity:weapons/fire_extinguisher/use_item"
+  }
+}

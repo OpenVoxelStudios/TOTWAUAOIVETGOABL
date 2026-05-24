@@ -1,0 +1,1 @@
+give @s flint[custom_model_data={strings:["fire_extinguisher"]},consumable={consume_seconds:9999999,animation:"bow",has_consume_particles:false,sound:"intentionally_empty"},item_name="Fire Extinguisher",max_damage=1000,damage=0,max_stack_size=1]

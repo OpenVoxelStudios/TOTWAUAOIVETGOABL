@@ -1,14 +1,37 @@
 {
   "stats": {
+    "minecraft:picked_up": {
+      "minecraft:copper_shovel": 1,
+      "minecraft:flint": 1,
+      "minecraft:iron_shovel": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 361372,
+      "minecraft:walk_one_cm": 105863,
+      "minecraft:leave_game": 5,
+      "minecraft:damage_dealt": 50,
+      "minecraft:play_time": 361372,
+      "minecraft:jump": 3793,
+      "minecraft:time_since_death": 361372,
+      "minecraft:sprint_one_cm": 355014,
+      "minecraft:fall_one_cm": 40464,
+      "minecraft:total_world_time": 361372,
+      "minecraft:fly_one_cm": 1898062,
+      "minecraft:walk_on_water_one_cm": 1137,
+      "minecraft:crouch_one_cm": 2691,
+      "minecraft:sneak_time": 5516,
+      "minecraft:climb_one_cm": 1687
+    },
     "minecraft:used": {
       "minecraft:stripped_dark_oak_wood": 266,
       "minecraft:polished_tuff": 42,
       "minecraft:skeleton_skull": 1,
       "minecraft:dark_oak_leaves": 649,
       "minecraft:black_concrete": 52,
-      "minecraft:cyan_terracotta": 154,
+      "minecraft:cyan_terracotta": 156,
       "minecraft:water_bucket": 4,
       "minecraft:bone_meal": 8,
+      "minecraft:spruce_sign": 1,
       "minecraft:deepslate_tiles": 3,
       "minecraft:moss_block": 67,
       "minecraft:polished_tuff_wall": 18,
@@ -16,28 +39,6 @@
       "minecraft:birch_leaves": 220,
       "minecraft:coarse_dirt": 26,
       "minecraft:iron_shovel": 2
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 282395,
-      "minecraft:walk_one_cm": 97804,
-      "minecraft:leave_game": 4,
-      "minecraft:damage_dealt": 50,
-      "minecraft:play_time": 282395,
-      "minecraft:jump": 3658,
-      "minecraft:time_since_death": 282395,
-      "minecraft:sprint_one_cm": 340685,
-      "minecraft:fall_one_cm": 40464,
-      "minecraft:total_world_time": 282395,
-      "minecraft:fly_one_cm": 1864436,
-      "minecraft:walk_on_water_one_cm": 1012,
-      "minecraft:crouch_one_cm": 2652,
-      "minecraft:sneak_time": 5471,
-      "minecraft:climb_one_cm": 1675
-    },
-    "minecraft:picked_up": {
-      "minecraft:copper_shovel": 1,
-      "minecraft:flint": 1,
-      "minecraft:iron_shovel": 1
     }
   },
   "DataVersion": 4790
