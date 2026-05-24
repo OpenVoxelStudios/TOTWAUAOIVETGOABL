@@ -10,6 +10,14 @@
 				"assets/aj/textures/blueprint/entity_piranha/gosh_this_looks_terrible.png"
 			]
 		},
+		"aj:entity_sapling": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/entity_sapling/root.json",
+				"assets/aj/models/blueprint/entity_sapling/root.json",
+				"assets/aj/textures/blueprint/entity_sapling/crop.png"
+			]
+		},
 		"aj:entity_trap": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
@@ -22,7 +30,9 @@
 				"assets/aj/models/blueprint/entity_trap/petal2.json",
 				"assets/aj/models/blueprint/entity_trap/petal3.json",
 				"assets/aj/models/blueprint/entity_trap/petal4.json",
-				"assets/aj/models/blueprint/entity_trap/root.json"
+				"assets/aj/models/blueprint/entity_trap/root.json",
+				"assets/aj/textures/blueprint/entity_trap/spore_blossom.png",
+				"assets/aj/textures/blueprint/entity_trap/spore_blossom_base.png"
 			]
 		},
 		"aj:entrance": {

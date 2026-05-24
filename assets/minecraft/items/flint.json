@@ -18,6 +18,13 @@
                 }
             },
             {
+                "when": "pedestal",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/pedestal"
+                }
+            },
+            {
                 "when": "keycard_reader",
                 "model": {
                     "type": "minecraft:model",
