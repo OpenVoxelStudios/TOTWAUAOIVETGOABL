@@ -4,18 +4,15 @@
 		"aj:entity_piranha": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
-				"assets/aj/items/blueprint/entity_piranha/root.json",
-				"assets/aj/models/blueprint/entity_piranha/root.json",
+				"assets/aj/items/blueprint/entity_piranha/final.json",
+				"assets/aj/items/blueprint/entity_piranha/medium.json",
+				"assets/aj/items/blueprint/entity_piranha/small.json",
+				"assets/aj/models/blueprint/entity_piranha/final.json",
+				"assets/aj/models/blueprint/entity_piranha/medium.json",
+				"assets/aj/models/blueprint/entity_piranha/small.json",
 				"assets/aj/textures/blueprint/entity_piranha/crop.png",
-				"assets/aj/textures/blueprint/entity_piranha/gosh_this_looks_terrible.png"
-			]
-		},
-		"aj:entity_sapling": {
-			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
-			"versionedFiles": [
-				"assets/aj/items/blueprint/entity_sapling/root.json",
-				"assets/aj/models/blueprint/entity_sapling/root.json",
-				"assets/aj/textures/blueprint/entity_sapling/crop.png"
+				"assets/aj/textures/blueprint/entity_piranha/gosh_this_looks_terrible.png",
+				"assets/aj/textures/blueprint/entity_piranha/please_remove_this_help_me.png"
 			]
 		},
 		"aj:entrance": {
