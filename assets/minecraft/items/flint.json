@@ -11,6 +11,13 @@
                 }
             },
             {
+                "when": "garden_shears",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/garden_shears"
+                }
+            },
+            {
                 "when": "keycard_reader",
                 "model": {
                     "type": "minecraft:model",
