@@ -5,5 +5,6 @@ execute as @e[scores={entity.growth=0..}] at @s if score @s entity.growth > #gro
 scoreboard players remove @e[scores={entity.health=0..,entity.attack_cd=1..}] entity.attack_cd 1
 
 # Entity ticks
-execute as @e[tag=aj.entity_piranha.root] at @s run function entity:piranha/tick
-execute as @e[tag=aj.entity_surveillance.root] at @s run function entity:surveillance/tick
+execute as @e[tag=aj.entity_piranha.root,tag=entity.grown] at @s run function entity:piranha/tick
+execute as @e[tag=aj.entity_surveillance.root,tag=entity.grown] at @s run function entity:surveillance/tick
+execute as @e[tag=aj.entity_trap.root,tag=entity.grown] at @s run function entity:trap/tick

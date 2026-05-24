@@ -402,7 +402,8 @@
 							"color": -1,
 							"uniform": true,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "scale",
@@ -418,7 +419,8 @@
 							"color": -1,
 							"uniform": true,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						}
 					]
 				},
@@ -731,7 +733,8 @@
 							"color": -1,
 							"uniform": true,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "scale",
@@ -747,7 +750,8 @@
 							"color": -1,
 							"uniform": true,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						}
 					]
 				},
@@ -759,7 +763,7 @@
 							"channel": "function",
 							"data_points": [
 								{
-									"function": "function aj:entity_piranha/animations/large_idle/play\nscoreboard players set @s entity.strength 2\n\n",
+									"function": "function aj:entity_piranha/animations/large_idle/play\nscoreboard players set @s entity.strength 2\ntag @s add entity.grown\n\n",
 									"execute_condition": "",
 									"repeat": false,
 									"repeat_frequency": 1
@@ -769,8 +773,7 @@
 							"time": 1,
 							"color": -1,
 							"interpolation": "linear",
-							"easing": "linear",
-							"easingArgs": []
+							"easing": "linear"
 						},
 						{
 							"channel": "function",
@@ -873,7 +876,8 @@
 							"time": 1,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -904,7 +908,8 @@
 							"time": 1.5,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "scale",

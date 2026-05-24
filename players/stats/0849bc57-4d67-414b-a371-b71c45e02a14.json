@@ -1,32 +1,5 @@
 {
   "stats": {
-    "minecraft:picked_up": {
-      "minecraft:oak_sign": 2,
-      "minecraft:copper_shovel": 6,
-      "minecraft:spruce_wood": 14,
-      "minecraft:moss_carpet": 1,
-      "minecraft:flowering_azalea": 2,
-      "minecraft:flint": 7
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 719543,
-      "minecraft:walk_one_cm": 389607,
-      "minecraft:leave_game": 27,
-      "minecraft:walk_under_water_one_cm": 583,
-      "minecraft:damage_taken": 80,
-      "minecraft:play_time": 719543,
-      "minecraft:jump": 8601,
-      "minecraft:time_since_death": 719543,
-      "minecraft:drop": 29,
-      "minecraft:sprint_one_cm": 824447,
-      "minecraft:fall_one_cm": 13294,
-      "minecraft:total_world_time": 848557,
-      "minecraft:fly_one_cm": 4516543,
-      "minecraft:walk_on_water_one_cm": 2470,
-      "minecraft:crouch_one_cm": 607,
-      "minecraft:sneak_time": 6425,
-      "minecraft:climb_one_cm": 1336
-    },
     "minecraft:used": {
       "minecraft:polished_tuff": 147,
       "minecraft:waxed_weathered_cut_copper_slab": 2,
@@ -70,12 +43,39 @@
       "minecraft:tuff_bricks": 99,
       "minecraft:smooth_stone_slab": 1
     },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 741695,
+      "minecraft:walk_one_cm": 401606,
+      "minecraft:leave_game": 28,
+      "minecraft:walk_under_water_one_cm": 583,
+      "minecraft:damage_taken": 80,
+      "minecraft:play_time": 741695,
+      "minecraft:jump": 8782,
+      "minecraft:time_since_death": 741695,
+      "minecraft:drop": 29,
+      "minecraft:sprint_one_cm": 847935,
+      "minecraft:fall_one_cm": 14869,
+      "minecraft:total_world_time": 881104,
+      "minecraft:fly_one_cm": 4594342,
+      "minecraft:walk_on_water_one_cm": 2470,
+      "minecraft:crouch_one_cm": 607,
+      "minecraft:sneak_time": 6558,
+      "minecraft:climb_one_cm": 1777
+    },
     "minecraft:dropped": {
       "minecraft:iron_shovel": 1,
       "minecraft:stone_sword": 1,
       "minecraft:spruce_wood": 14,
       "minecraft:copper_shovel": 5,
       "minecraft:flint": 8
+    },
+    "minecraft:picked_up": {
+      "minecraft:oak_sign": 2,
+      "minecraft:copper_shovel": 6,
+      "minecraft:spruce_wood": 14,
+      "minecraft:moss_carpet": 1,
+      "minecraft:flowering_azalea": 2,
+      "minecraft:flint": 7
     }
   },
   "DataVersion": 4790
