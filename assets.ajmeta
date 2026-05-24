@@ -4,15 +4,25 @@
 		"aj:entity_piranha": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
-				"assets/aj/items/blueprint/entity_piranha/final.json",
-				"assets/aj/items/blueprint/entity_piranha/medium.json",
-				"assets/aj/items/blueprint/entity_piranha/small.json",
-				"assets/aj/models/blueprint/entity_piranha/final.json",
-				"assets/aj/models/blueprint/entity_piranha/medium.json",
-				"assets/aj/models/blueprint/entity_piranha/small.json",
+				"assets/aj/items/blueprint/entity_piranha/root.json",
+				"assets/aj/models/blueprint/entity_piranha/root.json",
 				"assets/aj/textures/blueprint/entity_piranha/crop.png",
-				"assets/aj/textures/blueprint/entity_piranha/gosh_this_looks_terrible.png",
-				"assets/aj/textures/blueprint/entity_piranha/please_remove_this_help_me.png"
+				"assets/aj/textures/blueprint/entity_piranha/gosh_this_looks_terrible.png"
+			]
+		},
+		"aj:entity_trap": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/entity_trap/petal1.json",
+				"assets/aj/items/blueprint/entity_trap/petal2.json",
+				"assets/aj/items/blueprint/entity_trap/petal3.json",
+				"assets/aj/items/blueprint/entity_trap/petal4.json",
+				"assets/aj/items/blueprint/entity_trap/root.json",
+				"assets/aj/models/blueprint/entity_trap/petal1.json",
+				"assets/aj/models/blueprint/entity_trap/petal2.json",
+				"assets/aj/models/blueprint/entity_trap/petal3.json",
+				"assets/aj/models/blueprint/entity_trap/petal4.json",
+				"assets/aj/models/blueprint/entity_trap/root.json"
 			]
 		},
 		"aj:entrance": {

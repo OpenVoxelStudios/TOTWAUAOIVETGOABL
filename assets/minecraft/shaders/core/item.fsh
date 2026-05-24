@@ -63,7 +63,7 @@ void main() {
         );
         
         fragColor.a = easeOutPow(fragColor.a);
-        if (fragColor.a < 0.2) discard;
+        if (fragColor.a < 0.03) discard;
         fragColor = apply_fog(fragColor, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
         
     }

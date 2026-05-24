@@ -1,0 +1,36 @@
+{
+	"textures": {
+		"0": "minecraft:block/spore_blossom",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [8, 8.45, -4],
+			"to": [32, 8.45, 20],
+			"shade": false,
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 22.5,
+				"origin": [8, 8, -4]
+			},
+			"faces": {
+				"up": {
+					"uv": [16, 16, 0, 0],
+					"rotation": 270,
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [16, 0, 0, 16],
+					"rotation": 90,
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

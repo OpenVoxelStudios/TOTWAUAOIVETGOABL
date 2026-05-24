@@ -4,10 +4,10 @@
         "property": "minecraft:custom_model_data",
         "cases": [
             {
-                "when": "fire_extinquisher",
+                "when": "fire_extinguisher",
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/custom/fire_extinquisher"
+                    "model": "item/custom/fire_extinguisher"
                 }
             },
             {
@@ -78,6 +78,41 @@
                 "model": {
                     "type": "minecraft:model",
                     "model": "item/custom/garden_bed"
+                }
+            },
+            {
+                "when": "stonks",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/stonks"
+                }
+            },
+            {
+                "when": "lights",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/lights",
+                    "tints": [
+                        {
+                            "type": "custom_model_data",
+                            "default": [1,1,1],
+                            "index": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "bulb_plant",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/bulb_plant"
+                }
+            },
+            {
+                "when": "nitrogen",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "item/custom/nitrogen"
                 }
             }
         ],

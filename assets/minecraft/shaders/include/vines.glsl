@@ -138,7 +138,7 @@ vec3 vines_vertex(vec3 vertex_pos,float strength) {
 
 	float height = smoothstep(5,0,distance(vec3(0),vertex_pos + vec3(0,1.6,0))) * strength;
 
-	return vertex_pos + vec3(0,pow(height,2),0);
+	return vertex_pos + vec3(0,height,0);
 }
 
 

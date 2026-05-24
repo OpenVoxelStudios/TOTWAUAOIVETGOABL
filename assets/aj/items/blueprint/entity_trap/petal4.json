@@ -1,7 +1,7 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "aj:blueprint/entity_piranha/final",
+		"model": "aj:blueprint/entity_trap/petal4",
 		"tints": [
 			{"type": "minecraft:dye", "default": [1, 1, 1]}
 		]
