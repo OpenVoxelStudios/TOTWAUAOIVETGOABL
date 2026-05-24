@@ -1,2 +1,2 @@
-tp @a @n[tag=lobby.tp]
+tp @a @n[tag=lobby.spawn]
 gamemode adventure @a
