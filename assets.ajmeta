@@ -51,8 +51,7 @@
 				"assets/aj/models/blueprint/entrance/left_leg.json",
 				"assets/aj/models/blueprint/entrance/right_arm.json",
 				"assets/aj/models/blueprint/entrance/right_leg.json",
-				"assets/aj/models/blueprint/entrance/torso.json",
-				"assets/aj/textures/blueprint/entrance/help.png"
+				"assets/aj/models/blueprint/entrance/torso.json"
 			]
 		},
 		"aj:vine_wall": {
