@@ -5,7 +5,7 @@ scoreboard players set collected_fuses phase 0
 
 function phase:unlock {phase:8}
 
-execute as @e[tag=phase7.dialog] at @s unless entity @p[distance=..3] run return fail
+execute as @e[tag=phase7.dialog] at @s unless entity @p[distance=..5] run return fail
 execute unless score dialog_temp phase matches 0 run return fail
 
 scoreboard players set dialog_temp phase 1

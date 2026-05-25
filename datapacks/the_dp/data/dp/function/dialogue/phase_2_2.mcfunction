@@ -3,3 +3,5 @@ execute as @p[tag=d.temp] run tellraw @a ["\n<",{selector:"@s"},">: yeah i dont 
 
 tag @a remove d.temp
 tag @a remove d.other
+
+schedule function dp:dialogue/phase_2_3 5s replace
