@@ -1,13 +1,5 @@
 {
   "stats": {
-    "minecraft:dropped": {
-      "minecraft:waxed_copper_grate": 1,
-      "minecraft:dark_oak_leaves": 1,
-      "minecraft:iron_shovel": 1,
-      "minecraft:carrot_on_a_stick": 3,
-      "minecraft:stone_sword": 4,
-      "minecraft:flint": 2
-    },
     "minecraft:picked_up": {
       "minecraft:carrot_on_a_stick": 2,
       "minecraft:azalea": 1,
@@ -18,6 +10,28 @@
       "minecraft:flint": 5,
       "minecraft:stone": 1
     },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 30444,
+      "minecraft:walk_one_cm": 573736,
+      "minecraft:leave_game": 22,
+      "minecraft:damage_taken": 980,
+      "minecraft:mob_kills": 2,
+      "minecraft:play_time": 1672396,
+      "minecraft:damage_dealt": 118,
+      "minecraft:jump": 3158,
+      "minecraft:time_since_death": 30413,
+      "minecraft:play_record": 2,
+      "minecraft:drop": 12,
+      "minecraft:sprint_one_cm": 526601,
+      "minecraft:fall_one_cm": 16912,
+      "minecraft:total_world_time": 2417063,
+      "minecraft:fly_one_cm": 2615817,
+      "minecraft:walk_on_water_one_cm": 507,
+      "minecraft:crouch_one_cm": 17550,
+      "minecraft:sneak_time": 15260,
+      "minecraft:climb_one_cm": 2886,
+      "minecraft:deaths": 4
+    },
     "minecraft:used": {
       "minecraft:waxed_exposed_copper_chain": 9,
       "minecraft:polished_tuff": 508,
@@ -27,7 +41,7 @@
       "minecraft:waxed_copper_bars": 11,
       "minecraft:iron_block": 79,
       "minecraft:polished_tuff_slab": 8,
-      "minecraft:oak_sign": 7,
+      "minecraft:oak_sign": 8,
       "minecraft:rooted_dirt": 1,
       "minecraft:carrot_on_a_stick": 70,
       "minecraft:command_block": 3,
@@ -37,7 +51,7 @@
       "minecraft:azalea": 7,
       "minecraft:deepslate_tile_slab": 6,
       "minecraft:smooth_stone": 2,
-      "minecraft:chiseled_tuff_bricks": 59,
+      "minecraft:chiseled_tuff_bricks": 90,
       "minecraft:azalea_leaves": 1,
       "minecraft:oak_slab": 1,
       "minecraft:waxed_weathered_copper_chain": 2,
@@ -80,27 +94,13 @@
       "minecraft:warped_sign": 1,
       "minecraft:black_stained_glass": 8
     },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 17789,
-      "minecraft:walk_one_cm": 555599,
-      "minecraft:leave_game": 21,
-      "minecraft:mob_kills": 2,
-      "minecraft:damage_taken": 980,
-      "minecraft:play_time": 1659741,
-      "minecraft:damage_dealt": 118,
-      "minecraft:jump": 3108,
-      "minecraft:time_since_death": 17758,
-      "minecraft:play_record": 2,
-      "minecraft:drop": 12,
-      "minecraft:sprint_one_cm": 517247,
-      "minecraft:fall_one_cm": 16912,
-      "minecraft:total_world_time": 2403595,
-      "minecraft:fly_one_cm": 2566420,
-      "minecraft:walk_on_water_one_cm": 507,
-      "minecraft:crouch_one_cm": 17480,
-      "minecraft:sneak_time": 15146,
-      "minecraft:climb_one_cm": 2886,
-      "minecraft:deaths": 4
+    "minecraft:dropped": {
+      "minecraft:waxed_copper_grate": 1,
+      "minecraft:dark_oak_leaves": 1,
+      "minecraft:iron_shovel": 1,
+      "minecraft:carrot_on_a_stick": 3,
+      "minecraft:stone_sword": 4,
+      "minecraft:flint": 2
     }
   },
   "DataVersion": 4790
