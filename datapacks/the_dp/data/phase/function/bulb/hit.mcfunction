@@ -1,7 +1,8 @@
 advancement revoke @s only phase:player_hit_bulb
 
 execute if score attack_cooldown bulb matches 1.. run return fail
-execute unless items entity @s weapon.mainhand *[minecraft:custom_data~{weapon:1b}] run return run tellraw @s "I need a weapon for this"
+execute unless items entity @s weapon.mainhand *[minecraft:custom_data~{weapon:1b}] run title @s times 0 10 20
+execute unless items entity @s weapon.mainhand *[minecraft:custom_data~{weapon:1b}] run return run title @s actionbar ["",{italic:true,text:"I need a weapon for this plant..."}]
 
 playsound minecraft:block.big_dripleaf.hit block @a[distance=0..32] ~ ~ ~ 1.5 0.7 0.0
 playsound minecraft:block.big_dripleaf.hit block @a[distance=0..32] ~ ~ ~ 1.5 0.7 0.0

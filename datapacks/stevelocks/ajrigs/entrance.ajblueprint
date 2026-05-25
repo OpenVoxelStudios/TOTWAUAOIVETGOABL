@@ -3,7 +3,7 @@
 		"format": "animated-java:format/blueprint",
 		"format_version": "1.10.0-beta.6",
 		"uuid": "c3dac309-ad04-168e-d4be-83c8f086b283",
-		"save_location": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/saves/the game jam™/datapacks/stevelocks/ajrigs/entrance.ajblueprint",
+		"save_location": "/Users/School/Library/Application Support/minecraft/26.1.2/saves/overgrowthmapjam/datapacks/stevelocks/ajrigs/entrance.ajblueprint",
 		"last_used_blueprint_id": "aj:entrance"
 	},
 	"resolution": {
@@ -1490,7 +1490,7 @@
 		{
 			"name": "bigdoor.png",
 			"path": "/Users/nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/resourcepacks/the_rp/assets/minecraft/textures/item/custom/bigdoor.png",
-			"relative_path": "../../../../../resourcepacks/the_rp/assets/minecraft/textures/item/custom/bigdoor.png",
+			"relative_path": "../../../../../../../../../../nini/Library/Application Support/ModrinthApp/profiles/OVS 1.21.8/resourcepacks/the_rp/assets/minecraft/textures/item/custom/bigdoor.png",
 			"folder": "",
 			"namespace": "",
 			"id": "0",
@@ -1514,9 +1514,12 @@
 			"frame_order_type": "loop",
 			"frame_order": "",
 			"frame_interpolate": false,
+			"downscale_target_width": 0,
+			"downscale_target_height": 0,
+			"downscale_filter": "",
 			"visible": true,
 			"internal": true,
-			"saved": true,
+			"saved": false,
 			"uuid": "f29dd76b-2cc1-4f64-b27e-04d79e297366",
 			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAI3UlEQVR4AeycW6hWRRiGxwWV1c7CQ2eKrC6qm4ooOlFEQVh0wuqiAxUdQIJOJoKBCglidoIQOpCidlFJlqQJhiSVkoR2U92EF9FB80DZztQg85n6dvMv197739u11sxavtG7Z+abb2a+9b3vmrX+v3/KZs2Zu2/azGc9Hnt6qi+tTRnazDe04WOgH9DG54lp0/eFJX2A/pTgDuF/sl1/7h7w8rPDj/D9Rx050g3kS7933P+nt7fX9fT0uLHHHuOOHzfWl/vN/t9wjnCM79Sf2jOQXX7CBvfW/DfcxPO+cfdd8r0vqT98zU9u1fJl7vHrtzrqd1+6yZf0rVuz2vsx1jBh/Ab3+rxXHCXz2BjGYX/ypp2OOuMB4z5Y8o6jnDX9mRExUXvWE1owmzR7g5s39cKOkEafcJy7/akv3bvPX9Rhp3Hr5LXu1SlnuZ+3de4cj8z5zi2dexkujvFHjOzxdeZZs2iCr9sfxs548wc344FTzaQyUgYyyD9p7MiO5a+6Z0Uh+diN5HAAZCKK0LZnd+8BItqx5VfvguhEvk9F9D/Zxp2XuRWbLvRY8MVpbsnX57qHJj3qXlt9slu8brx7YdkoX1LHji9+jDPcPPEOP54+8NLKcX4MdsYB5qEPMI+N/XxL5+4TPSOHWAAZ13vx+ee466+5wvHCx4sZL2pXX3pBnw0fEPqN6jnavxTiG/ZRN5i/tSmLbNiFOBnwAhg9eozbsWO7jwBCEUHeRmdoox2iqM9szGm+ZrO2yjgZsFW9ANau3+jWf/Wtt0E+lZWrP+uwQWJowydE2Pf33j1u22+/u8VLP3Ir1qx39rEQ/9CPthA3Axlb+WAhQD7CoMQXgimLwHxnnXG6/+zP9wCA7wIYX+QvW9wMZGPGjBk0Au7gX7Zu83cyZX8DIL9oPoRThP7mkb2+DGTbt//77GdJ7myIog6szrd6Bu5mQH8RwvnoRzC79v7lAEIKQR8+QrwM+HcAWx6SIQhiAKRZH2V+G8+38cnDf7I4/DD/SEA4PB4AddbL+6tdbwY6BAChEGPg+T3+lBMddhCGtrP3D9/M270x9wch2W5iXTwuuhlr/iqryUCHACAJ2FKQZHVKdgXe7kOYjXEmCnwNPFaO2r8DmAiKfMxXZf0Z8ALYvHW7g0i2f0DdQglf6tjOsUOolWzjtCEYGwQD6oAx9JmPCQUf6vgI9WUgv1IGEZAOkbb1h075lzojkpIt3GBjIBVYmx2AOmtQIgbbQcyGXYiTAb8DsDREUg4EyIRAI78/X+YyESAq/NkJeKcIgej6m0P2ejLQJwBbzoijzaNh04+b/bd63LWQiB0RUPKOAKgjDkoQzkEbQVCGwKfIHvqoXn0G+gTAcx+wLdudCdHcvYRBaXcvbQPvCCYCsxWVCATS6aMU+WQiPrwAIJytmpLP6CeO+//bQRMBtiKi7R3Bdof+Lom5EZeJjBL05y97PRnwvwnkbszflUY2dz7kF4XDC2SRPW9jLtZAZACRAep5X7XrzUAGMZDPspQhqWzb9NMH6MOHugEbsHa3ZbePjm7nk9/wMuAfAeFQCIZQYHbqgD4EgTCoWz8lNkoDflbPk81c9ugwH5XVZqC/2b0A+PXPbTdc2/GVL7/cuffOW/rGQTh+/HIIIwRjow5uvO5K/wsi7AAbc+Afkm02RADwE+JlwAvAfqVjhFKajdBoQ2qRjT58wj7aoFsbvkKcDPiXQH6l88m6jX4HgFDIfm/5x+7DVZ/63/3Rxm5+Fio2+mgvfPv9vl8Q0Qb4r//vl0a0QZENuxAnAxmHNDigQcmhDjvQQckBEErs1s9BDuy0AYc9AAc/mId6CMYuWjDfnZmtcheMWuuBDXBghPniXLpWJQOZHfSgkT/QkT8YMtCBDg6AhP52MIQDI0VnALAXnTEgDqG+DGR5EjjQwQEQI9MOcxCSHeiwgyQIBnvoTxvYPPkDI4yF/LydMUL9Gcg4qGHgAAe46/4H/cEQDodwUMSAnYMcCzee7Q+C4Auwc/CDOmAcwM5Yxhhoc2DE1sRe/2VrRcuA/xRgDUpe7Cj7Ay99fObnPw4Z+IqXr3oZ0814/IR6MjDYKtm0KZNHhBjslC6+Lz83e8SLs2b2gTbj6KMcCPiEGCxA9VebgQN2gGqX0+ypZSC6APQxMK4kogsg7uVrdQngENdAdAHoY2BcBUYXQNzL1+oSQEs10O1lSQDdZqqlfhJAS4nt9rIkgG4z1VI/CaClxHZ7WRJAt5lqqZ8E0FJiu70sCaDbTLXUTwJoGbFDvRwJYKgZa5m/BNAyQod6ORLAUDPWMn8JoGWEDvVyJIChZqxl/hJAywgd6uVIAEPNWMv8JYCWEDrcy5AAhpu5loyTAFpC5HAvQwIYbuZaMi66AHQwJK6Sogsg7uVrdQngENdAdAHoYEhcBUYXQNzLb/7qB3sF0QXA/0vgYC9C44efgegCGH7oGllGBiSAMrLY4DkkgAaTV0boEkAZWWzwHBJAg8krI3QJoIwsNngOCaCh5JUVtgRQViYbOo8E0FDiygpbAigrkw2dRwJoKHFlhS0BlJXJhs4jATSUuLLClgDKymRD55EAGkZc2eFKAGVntGHzSQANI6zscCWAsjPasPkkgIYRVna4EkDZGW3YfBJAwwgrO1wJoOyMNmw+CaAhhFUVpgRQVWYbMq8E0BCiqgpTAqgqsw2ZVwJoCFFVhSkBVJXZhswrATSEqKrClACqymxD5pUAEieq6vAkgKoznPj8EkDiBFUdngRQdYYTn18CSJygqsOTAKrOcOLzSwCJE1R1eBJA1RlOfH4JIFGC6gpLAqgr04muIwEkSkxdYUkAdWU60XUkgESJqSssCaCuTCe6jgSQKDF1hSUB1JXpRNeRABIjpu5wJIC6M57YehJAYoTUHY4EUHfGE1tPAkiMkLrDkQDqznhi60kAiRFSdzgSQN0ZT2w9CSARQmKFIQHEynwi60oAiRARKwwJIFbmE1lXAkiEiFhhSACxMp/IuhJAIkTECkMCiJX5RNaVACITEXv5fwAAAP//pXvroAAAAAZJREFUAwC1wHU9B0GCJAAAAABJRU5ErkJggg=="
 		}
@@ -5231,7 +5234,7 @@
 							"channel": "function",
 							"data_points": [
 								{
-									"function": "title @a[tag=!dead] times 50 50 10\ntitle @a[tag=!dead] title {font:\"shader\",text:\"\\uFF00\",color:\"#0000FF\",shadow_color:0}\n",
+									"function": "title @a[tag=!dead] times 50 50 10\ntitle @a[ta title {font:\"shader\",text:\"\\uFF00\",color:\"#0000FF\",shadow_color:0}\n",
 									"execute_condition": "",
 									"repeat": false,
 									"repeat_frequency": 1
@@ -5241,8 +5244,7 @@
 							"time": 2.5,
 							"color": -1,
 							"interpolation": "linear",
-							"easing": "linear",
-							"easingArgs": []
+							"easing": "linear"
 						}
 					]
 				}

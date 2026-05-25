@@ -12,7 +12,7 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:entity_piranha"
-data modify storage animated_java:temp entry.data.rig_hash set value "2cdfe802ec35a4550c3a601a45597f0746515113f7e2142cb55418727a605a80"
+data modify storage animated_java:temp entry.data.rig_hash set value "991cd1d93c59482feeac7be8d8c9ec9baa9d865cbba92f3462f30914b596f6c3"
 tp @s ~ ~ ~ ~ ~
 summon minecraft:interaction ^0 ^0 ^0 {Tags:["aj.entity_piranha.bone.root.child","aj.entity_piranha.bone.root.child.locator","aj.entity_piranha.bone.root.decendant","aj.entity_piranha.bone.root.decendant.locator","aj.entity_piranha.bone.root.tree","aj.entity_piranha.entity","aj.entity_piranha.locator","aj.entity_piranha.locator.entity_hitbox","aj.entity_piranha.node","aj.entity_piranha.node.entity_hitbox","aj.global.bone.root.child","aj.global.bone.root.child.locator","aj.global.bone.root.decendant","aj.global.bone.root.decendant.locator","aj.global.bone.root.tree","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.entity_hitbox","aj.new","entity.kill_when_reset"]}
 execute as @n[ type=minecraft:interaction, tag=aj.entity_piranha.locator.entity_hitbox, tag=aj.new, distance=..1 ] run function aj:entity_piranha/zzz/summon/as_locator/entity_hitbox

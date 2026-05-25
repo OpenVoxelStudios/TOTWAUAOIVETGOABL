@@ -1,1 +1,2 @@
+function dp:dialogue/ding
 execute as @r run tellraw @a ["\n<",{selector:"@s"},">: guys! the final wall of vines broke down!"]

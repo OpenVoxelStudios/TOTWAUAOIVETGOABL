@@ -25,4 +25,4 @@ execute if score puzzle_iterations phase matches 5.. run return run function pha
 execute as @e[tag=generator.puzzle,type=marker] store result score @s generator.ids run random value 0..1
 function dp:generator/flip_levers
 execute positioned 21.0 -60.0 0.5 run playsound dp:effects.tada block @a[distance=0..32] ~ ~ ~ 1.5 1.0 0.0
-execute positioned 21.0 -60.0 0.5 run tellraw @a[distance=0..16] "nice! now do another!"
+execute positioned 21.0 -60.0 0.5 as @r run tellraw @a[distance=0..16] ["\n<",{selector:"@s"},">: nice! now do another!"]

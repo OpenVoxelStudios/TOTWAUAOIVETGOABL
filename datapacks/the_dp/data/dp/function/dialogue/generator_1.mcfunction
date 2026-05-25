@@ -1,1 +1,2 @@
+function dp:dialogue/ding
 execute as @r run tellraw @a ["\n<",{selector:"@s"},">: oh... it's missing some parts. those look like slots for fuses. yo guys we gotta ",{color:"aqua",text:"find 4 fuses"}," around the building and put them in the gen"]

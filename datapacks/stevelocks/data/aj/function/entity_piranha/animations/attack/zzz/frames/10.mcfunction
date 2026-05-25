@@ -9,3 +9,4 @@ execute unless entity @s[tag=aj.transforms_only] positioned ^0 ^0.338126162 ^1.9
 data modify storage animated_java:temp entry.data merge value {"cameras":{},"locators":{"entity_hitbox":{"px":0,"py":0,"pz":0,"ry":0,"rx":42.5},"locator":{"px":0,"py":0.338126162,"pz":1.9842637071,"ry":0,"rx":20}}}
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
+execute unless entity @s[tag=aj.transforms_only] at @s run function aj:entity_piranha/animations/attack/zzz/frames/10_root_function

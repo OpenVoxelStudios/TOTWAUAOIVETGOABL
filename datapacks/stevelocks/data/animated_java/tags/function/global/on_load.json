@@ -2,6 +2,7 @@
 	"replace": false,
 	"values": [
 		"aj:entity_camera/on_load",
+		"aj:entity_crown_piranha/on_load",
 		"aj:entity_piranha/on_load",
 		"aj:entity_sapling/on_load",
 		"aj:entity_trap/on_load",

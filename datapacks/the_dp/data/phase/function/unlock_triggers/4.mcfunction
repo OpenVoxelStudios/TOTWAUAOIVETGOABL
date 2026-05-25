@@ -3,7 +3,7 @@ gamemode adventure @a[tag=!dead]
 #data modify entity @n[type=item_display,tag=ground_vines] transformation.translation[1] set value 0.52
 
 bossbar set death_timer players @a
-bossbar set death_timer max 24000
+bossbar set death_timer max 14400
 bossbar set death_timer style progress
 bossbar set death_timer value 0
 bossbar set death_timer visible true

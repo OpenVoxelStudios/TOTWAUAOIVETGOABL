@@ -4,7 +4,8 @@ function aj:entity_sapling/as_root {command:'scoreboard players operation OPERAT
 # aj rig used doesn't matter apparently
 
 # -1 = unkillable
-execute if score OPERATION_TEMP entity.strength matches -1 run return run tellraw @p[tag=target] "this plant seems to be too strong to be killed"
+execute if score OPERATION_TEMP entity.strength matches -1 run title @s times 0 10 20
+execute if score OPERATION_TEMP entity.strength matches -1 run return run title @p[tag=target] actionbar ["",{italic:true,text:"this plant seems too strong to be killed"}]
 
 # 0 = anything
 execute if score OPERATION_TEMP entity.strength matches 0 run return run function aj:entity_sapling/as_root {command:'function entity:interaction/damage'}
@@ -22,4 +23,5 @@ execute if score OPERATION_TEMP entity.strength matches 3 if items entity @p[tag
 
 
 # fallback
-tellraw @s "im not strong enough"
+title @s times 0 10 20
+title @p[tag=target] actionbar ["",{italic:true,text:"I'm not strong enough!"}]

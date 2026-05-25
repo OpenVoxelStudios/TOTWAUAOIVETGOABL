@@ -6,6 +6,8 @@ scoreboard players remove @e[scores={entity.health=0..,entity.attack_cd=1..}] en
 
 # Entity ticks
 execute as @e[tag=aj.entity_piranha.root,tag=entity.grown,tag=!entity.frozen] at @s run function entity:piranha/tick
+execute as @e[tag=aj.entity_crown_piranha.root,tag=entity.grown,tag=!entity.frozen] at @s run function entity:piranha/tick
+
 execute as @e[tag=aj.entity_camera.root] at @s run function entity:camera/tick
 execute as @e[tag=aj.entity_trap.root,tag=entity.grown,tag=!entity.frozen] at @s run function entity:trap/tick
 
