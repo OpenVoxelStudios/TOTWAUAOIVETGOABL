@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "aj:blueprint/entity_crown_piranha/flytrap",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5, 8, 4.87501],
+			"to": [11, 12.5, 7.87501],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8, 8, 7.87501]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 12, 2, 13.5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [12, 2.5, 13, 4],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [12, 0, 14, 1.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [4, 12, 5, 13.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [14, 2.5, 12, 1.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [4, 12, 2, 13],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

@@ -13,6 +13,26 @@
 				"assets/aj/textures/blueprint/entity_camera/camera_plant.png"
 			]
 		},
+		"aj:entity_crown_piranha": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/entity_crown_piranha/bone.json",
+				"assets/aj/items/blueprint/entity_crown_piranha/bone1.json",
+				"assets/aj/items/blueprint/entity_crown_piranha/bone2.json",
+				"assets/aj/items/blueprint/entity_crown_piranha/bone3.json",
+				"assets/aj/items/blueprint/entity_crown_piranha/bone4.json",
+				"assets/aj/items/blueprint/entity_crown_piranha/root.json",
+				"assets/aj/models/blueprint/entity_crown_piranha/bone.json",
+				"assets/aj/models/blueprint/entity_crown_piranha/bone1.json",
+				"assets/aj/models/blueprint/entity_crown_piranha/bone2.json",
+				"assets/aj/models/blueprint/entity_crown_piranha/bone3.json",
+				"assets/aj/models/blueprint/entity_crown_piranha/bone4.json",
+				"assets/aj/models/blueprint/entity_crown_piranha/root.json",
+				"assets/aj/textures/blueprint/entity_crown_piranha/crown.png",
+				"assets/aj/textures/blueprint/entity_crown_piranha/flyteeth.png",
+				"assets/aj/textures/blueprint/entity_crown_piranha/flytrap.png"
+			]
+		},
 		"aj:entity_piranha": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
