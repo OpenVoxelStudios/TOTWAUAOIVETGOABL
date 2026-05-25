@@ -46,3 +46,6 @@ scoreboard players add @a music 1
 execute as @a if score @s music matches 5595.. run scoreboard players set @s music 0
 execute as @a at @s if score @s music matches 20 run stopsound @s ambient dp:effects.ambience
 execute as @a at @s if score @s music matches 20 run playsound dp:effects.ambience ambient @s ~ ~ ~ 0.4 1.0 0.0
+
+execute as @a[tag=!joined] at @s run tp @s 1.0 -54.0 -46.0
+execute as @a[tag=!joined] at @s run tag @s add joined
