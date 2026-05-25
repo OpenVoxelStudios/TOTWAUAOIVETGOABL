@@ -1,4 +1,5 @@
 advancement revoke @s only entity:use_liquid_nitrogen
+advancement revoke @s only entity:use_liquid_nitrogen2
 
 execute if items entity @s weapon.* flint[damage=1000] run title @s times 0 10 20
 execute if items entity @s weapon.* flint[damage=1000] run return run title @s actionbar "There's nothing left....nice."

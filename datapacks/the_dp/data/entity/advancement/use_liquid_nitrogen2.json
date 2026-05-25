@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+      }
+    }
+  },
+  "requirements": [["a"]],
+  "rewards": {
+    "function": "entity:weapons/liquid_nitrogen/use_item"
+  }
+}
