@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-effects.door_open: 0 ticks
-=======
 effects.ambience: 5595 ticks
 effects.door_open: 196 ticks
 effects.place_fuse: 5 ticks
 effects.tada: 36 ticks
->>>>>>> Stashed changes

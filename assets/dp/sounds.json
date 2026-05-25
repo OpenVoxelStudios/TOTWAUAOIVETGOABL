@@ -1,6 +1,4 @@
 {
-<<<<<<< Updated upstream
-=======
   "effects.tada": {
     "replace": true,
     "sounds": [
@@ -28,7 +26,6 @@
     ],
     "preload": true
   },
->>>>>>> Stashed changes
   "effects.door_open": {
     "replace": true,
     "sounds": [

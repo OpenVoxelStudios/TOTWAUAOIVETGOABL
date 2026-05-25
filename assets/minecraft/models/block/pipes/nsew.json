@@ -3,12 +3,8 @@
 	"credit": "Made by Openvoxel Studios",
 	"texture_size": [32, 32],
 	"textures": {
-<<<<<<< Updated upstream
-		"1": "block/pipe_straight3"
-=======
 		"1": "block/pipe_straight3",
 		"particle": "block/pipe_straight"
->>>>>>> Stashed changes
 	},
 	"elements": [
 		{
