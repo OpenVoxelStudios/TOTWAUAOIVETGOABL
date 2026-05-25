@@ -119,7 +119,10 @@ vec4 vines_fragment(vec3 world_pos, float time, float threshold) {
 	float berry_f1 = berry_w.x;
 	float berries = 1.0 - smoothstep(0.02, 0.08, berry_f1);
 
-	vec3 vine_color = vec3(0.3176470588,0.568627451,0.2) + snoise(uv*10)/10;
+	//vec3 vine_color = vec3(0.3176470588,0.568627451,0.2) + snoise(uv*10)/10;
+	vec3 vine_color = vec3(.047059, .26275, 0.019608) + snoise(uv*10)/10;
+	
+
 
 	float vines = 1.0 - smoothstep(0.03, 0.08, noise);
 	vines *= threshold;

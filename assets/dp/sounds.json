@@ -1,4 +1,34 @@
 {
+<<<<<<< Updated upstream
+=======
+  "effects.tada": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "dp:effects/tada"
+      }
+    ],
+    "preload": true
+  },
+  "effects.ambience": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "dp:effects/ambience"
+      }
+    ],
+    "preload": true
+  },
+  "effects.place_fuse": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "dp:effects/place_fuse"
+      }
+    ],
+    "preload": true
+  },
+>>>>>>> Stashed changes
   "effects.door_open": {
     "replace": true,
     "sounds": [

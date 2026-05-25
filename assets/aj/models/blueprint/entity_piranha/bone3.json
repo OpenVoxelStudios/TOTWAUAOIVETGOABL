@@ -1,0 +1,86 @@
+{
+	"textures": {
+		"0": "aj:blueprint/entity_piranha/flytrap",
+		"1": "aj:blueprint/entity_piranha/flyteeth",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [3, 8, 1],
+			"to": [13, 8, 8],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8, 5, 10]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 5, 0],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 3.5, 0],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 5, 0],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 3.5, 0],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [5, 7, 0, 3.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [5, 0, 0, 3.5],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [3, 8, 1],
+			"to": [13, 9, 9],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8, 7, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [5, 0, 10, 0.5],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [5, 1, 9, 1.5],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [5, 0.5, 10, 1],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [5, 1.5, 9, 2],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [5, 4, 0, 0],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [5, 4, 0, 8],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

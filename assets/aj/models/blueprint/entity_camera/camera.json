@@ -1,0 +1,85 @@
+{
+	"textures": {
+		"0": "aj:blueprint/entity_camera/camera_plant",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [6, 5, 5],
+			"to": [10, 8, 9],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8, 5, 7]
+			},
+			"faces": {
+				"north": {
+					"uv": [10.5, 4.5, 12.5, 6],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [6, 10.5, 8, 12],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [10.5, 6, 12.5, 7.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [11, 0, 13, 1.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [12.5, 4.5, 10.5, 2.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [6, 10.5, 4, 12.5],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [5, 4, 7],
+			"to": [11, 9, 11],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8, 5, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 8, 3, 10.5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 10.5, 2, 13],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [8, 0, 11, 2.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [2, 10.5, 4, 13],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [11, 9.5, 8, 7.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [11, 9.5, 8, 11.5],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "aj:blueprint/entity_camera/camera_plant",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5.9, 10, 5.9],
+			"to": [6.9, 11, 6.9],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [7.9, 8, 7.9]
+			},
+			"faces": {
+				"north": {
+					"uv": [12, 4.5, 12.5, 5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [7.5, 10.5, 8, 11],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [10.5, 6, 11, 6.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [11, 0, 11.5, 0.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [12.5, 4.5, 12, 4],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [6, 12, 5.5, 12.5],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

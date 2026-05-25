@@ -1,13 +1,35 @@
 {
 	"formatVersion": "1.0.0",
 	"rigs": {
+		"aj:entity_camera": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/entity_camera/bone.json",
+				"assets/aj/items/blueprint/entity_camera/camera.json",
+				"assets/aj/items/blueprint/entity_camera/root.json",
+				"assets/aj/models/blueprint/entity_camera/bone.json",
+				"assets/aj/models/blueprint/entity_camera/camera.json",
+				"assets/aj/models/blueprint/entity_camera/root.json",
+				"assets/aj/textures/blueprint/entity_camera/camera_plant.png"
+			]
+		},
 		"aj:entity_piranha": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
+				"assets/aj/items/blueprint/entity_piranha/bone.json",
+				"assets/aj/items/blueprint/entity_piranha/bone1.json",
+				"assets/aj/items/blueprint/entity_piranha/bone2.json",
+				"assets/aj/items/blueprint/entity_piranha/bone3.json",
+				"assets/aj/items/blueprint/entity_piranha/bone4.json",
 				"assets/aj/items/blueprint/entity_piranha/root.json",
+				"assets/aj/models/blueprint/entity_piranha/bone.json",
+				"assets/aj/models/blueprint/entity_piranha/bone1.json",
+				"assets/aj/models/blueprint/entity_piranha/bone2.json",
+				"assets/aj/models/blueprint/entity_piranha/bone3.json",
+				"assets/aj/models/blueprint/entity_piranha/bone4.json",
 				"assets/aj/models/blueprint/entity_piranha/root.json",
-				"assets/aj/textures/blueprint/entity_piranha/crop.png",
-				"assets/aj/textures/blueprint/entity_piranha/gosh_this_looks_terrible.png"
+				"assets/aj/textures/blueprint/entity_piranha/flyteeth.png",
+				"assets/aj/textures/blueprint/entity_piranha/flytrap.png"
 			]
 		},
 		"aj:entity_sapling": {
@@ -57,6 +79,7 @@
 			"versionedFiles": [
 				"assets/aj/items/blueprint/vine_wall/root.json",
 				"assets/aj/models/blueprint/vine_wall/root.json",
+				"assets/aj/textures/blueprint/vine_wall/leafthing.png",
 				"assets/aj/textures/blueprint/vine_wall/texture.png"
 			]
 		}
