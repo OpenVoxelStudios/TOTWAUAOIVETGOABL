@@ -6,5 +6,5 @@ execute if score @s aj.large_idle.frame matches -1 run function aj:entity_piranh
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.large_idle.frame
 function aj:entity_piranha/animations/large_idle/zzz/apply_frame with storage animated_java:temp args
-execute if score @s aj.large_idle.frame matches 29.. run return run scoreboard players set @s aj.large_idle.frame -1
+execute if score @s aj.large_idle.frame matches 59.. run return run scoreboard players set @s aj.large_idle.frame -1
 scoreboard players add @s aj.large_idle.frame 1

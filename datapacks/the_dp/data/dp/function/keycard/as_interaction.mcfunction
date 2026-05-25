@@ -8,5 +8,3 @@ execute as @e[distance=..20,tag=keycard.marker,type=marker] if score @s keycard.
 execute as @e[distance=..20,tag=keycard.display,type=text_display] if score @s keycard.ids = OPERATION_TEMP keycard.ids run data modify entity @s background set value -16713472
 
 execute if entity @s[tag=keycard.phase.1] run function phase:unlock {phase:1}
-
-tellraw @a[tag=debug] "UNLOCKED DOOR"

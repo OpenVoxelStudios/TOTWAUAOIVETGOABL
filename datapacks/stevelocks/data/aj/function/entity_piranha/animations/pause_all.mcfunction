@@ -3,3 +3,4 @@ tag @s remove aj.entity_piranha.animation.medium_grow.playing
 tag @s remove aj.entity_piranha.animation.medium_idle.playing
 tag @s remove aj.entity_piranha.animation.large_grow.playing
 tag @s remove aj.entity_piranha.animation.large_idle.playing
+tag @s remove aj.entity_piranha.animation.attack.playing

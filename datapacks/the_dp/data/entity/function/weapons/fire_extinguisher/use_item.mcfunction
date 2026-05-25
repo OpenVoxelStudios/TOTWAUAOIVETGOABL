@@ -10,3 +10,8 @@ execute if predicate {"condition":"minecraft:random_chance","chance":0.7} anchor
 execute if predicate {"condition":"minecraft:random_chance","chance":0.3} anchored eyes rotated ~5 ~ positioned ^-0.35 ^ ^ run particle spit ~ ~ ~ ^ ^ ^100000 0.00001 0 normal @a
 execute if predicate {"condition":"minecraft:random_chance","chance":0.3} anchored eyes rotated ~-5 ~ positioned ^-0.35 ^ ^ run particle spit ~ ~ ~ ^ ^ ^100000 0.00001 0 normal @a
 execute if predicate {"condition":"minecraft:random_chance","chance":0.3} anchored eyes rotated ~ ~-5 positioned ^-0.35 ^ ^ run particle spit ~ ~ ~ ^ ^ ^100000 0.00001 0 normal @a
+
+
+tag @s add current_entity
+execute rotated as @s positioned 0.0 0.0 0.0 positioned ^ ^ ^0.7 summon marker run function entity:weapons/fire_extinguisher/summon_stand
+tag @s remove current_entity

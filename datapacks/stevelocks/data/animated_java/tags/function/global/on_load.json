@@ -1,4 +1,11 @@
 {
 	"replace": false,
-	"values": ["aj:entity_piranha/on_load", "aj:entity_sapling/on_load", "aj:entity_trap/on_load", "aj:entrance/on_load", "aj:vine_wall/on_load"]
+	"values": [
+		"aj:entity_camera/on_load",
+		"aj:entity_piranha/on_load",
+		"aj:entity_sapling/on_load",
+		"aj:entity_trap/on_load",
+		"aj:entrance/on_load",
+		"aj:vine_wall/on_load"
+	]
 }

@@ -1,12 +1,56 @@
 function load {
     # you can use MC-Build without its internal scoreboard but this will limit the available features
     scoreboard objectives add mcb.internal dummy
+    scoreboard objectives add fake_player_id dummy
+    scoreboard objectives add fake_player_cooldown dummy
 
 
 }
 
 function tick {
     execute as @e[tag=falling_leaves,predicate=steve:leaves] at @s run particle minecraft:tinted_leaves{color:[0.3176470588,0.568627451,0.2,1.0]} ~ ~ ~ 0.5 0.5 0.5 0 2 normal @a
+    execute as @e[tag=fake_player_trader] at @s rotated as @s run {
+        effect give @s invisibility infinite 1 true
+        item replace entity @s weapon with milk_bucket[item_model="air",use_remainder={id:"bucket",count:1,components:{"minecraft:item_model":"air"}}]
+        item replace entity @s weapon.mainhand with milk_bucket[item_model="air",use_remainder={id:"bucket",count:1,components:{"minecraft:item_model":"air"}}]
+        item replace entity @s weapon.offhand with milk_bucket[item_model="air",use_remainder={id:"bucket",count:1,components:{"minecraft:item_model":"air"}}]
+        tag @s add current_trader
+        execute as @e[tag=fake_player,type=mannequin] if score @s fake_player_id = @n[tag=current_trader,distance=0..0.1,type=wandering_trader] fake_player_id run tag @s add current_mannequin
+        
+        execute as @a if score @s fake_player_id = @n[tag=current_trader,distance=0..0.1,type=wandering_trader] fake_player_id run {
+            spectate @n[tag=current_mannequin]
+            tag @s add current_player
+        }
+
+        execute store result score #health fake_player_id run data get entity @n[tag=current_mannequin] Health
+        execute if score #health fake_player_id matches ..80 run return run function fake_player/kill
+
+        tag @p[tag=current_player] remove current_player
+        scoreboard players remove @s fake_player_cooldown 1
+        execute if score @s fake_player_cooldown matches ..0 if entity @p[tag=!dead,gamemode=!spectator,distance=0..2] run {
+            scoreboard players set @s fake_player_cooldown 20
+            swing @n[tag=current_mannequin] mainhand
+            damage @p[tag=!dead,gamemode=!spectator,distance=0..1.5] 5
+        }
+        
+
+
+        tp @n[tag=current_mannequin] @s
+        execute if entity @p[tag=!dead,gamemode=!spectator,distance=0..25] run rotate @n[tag=current_mannequin] facing entity @p[tag=!dead,gamemode=!spectator,distance=0..25]
+
+        block {
+
+            execute unless entity @p[tag=!dead,gamemode=!spectator,distance=0..25] run return 0
+            data modify entity @s wander_target set value [I;0,0,0]
+
+            REPEAT (0,2) as i {
+                execute store result entity @s wander_target[<%i%>] int 1 run data get entity @p[tag=!dead,gamemode=!spectator,distance=0..25] Pos[<%i%>]
+            }
+        }
+
+        tag @s remove current_trader
+        tag @n[tag=current_mannequin] remove current_mannequin
+    }
 }
 
 predicate leaves {
@@ -59,5 +103,44 @@ dir vine_wall {
             data remove entity @s interaction
             function aj:vine_wall/as_root {command:'function aj:vine_wall/animations/open/play'}
         }
+    }
+}
+
+
+dir fake_player {
+    function summon {
+        execute store result score #players fake_player_id if entity @a[tag=!dead,gamemode=!spectator]
+        execute if score #players fake_player_id matches 1 run return run damage @s 9
+        execute summon mannequin run {
+            data merge entity @s {profile:{texture:"item/custom/sbetve"},Tags:["fake_player","new"],attributes:[{base:100,id:"max_health"}],Health:100}
+            execute store result score @s fake_player_id run data get entity @s UUID[0]
+        }
+        scoreboard players operation @s fake_player_id = @n[type=mannequin,tag=fake_player,tag=new,distance=0..0.1] fake_player_id
+        gamemode spectator
+        spectate @n[type=mannequin,tag=fake_player,tag=new,distance=0..0.1]
+        execute summon wandering_trader run {
+            # effect give @s slowness 200 5 true
+            # effect give @s slowness 5 20 false
+
+            data merge entity @s {Tags:["fake_player_trader","new"],Silent:1b,active_effects:[{id:"invisibility",duration:-1,amplifier:10,show_particles:false}],Invulnerable:1b,attributes:[{base:0.7,id:"scale"}]}
+            scoreboard players operation @s fake_player_id = @n[type=mannequin,tag=fake_player,tag=new,distance=0..0.1] fake_player_id
+            tag @s remove new
+            tag @n[type=mannequin,tag=fake_player,tag=new,distance=0..0.1] remove new
+        }
+
+
+    }
+    function kill {
+        
+        gamemode adventure @p[tag=current_player]
+        execute if entity @p[tag=current_player] run scoreboard players add killed_plants phase 4
+        kill @n[tag=current_mannequin]
+        tp @s ~ ~-1000 ~
+        kill @s
+        tag @p[tag=current_player] remove current_player
+    }
+    function kill_all {
+        execute as @e[tag=fake_player_trader] at @s run function kill
+        execute as @e[tag=fake_player] at @s run function kill
     }
 }

@@ -1,7 +1,12 @@
 function phase:reset
 
-# TODO: un-comment this
-# function entity:reset
+scoreboard players set @a music 0
+
+tag @a remove dead
+
+function steve:fake_player/kill_all
+
+function entity:reset
 function dp:keycard/reset
 function dp:itempicker/reset
 function dp:generator/reset

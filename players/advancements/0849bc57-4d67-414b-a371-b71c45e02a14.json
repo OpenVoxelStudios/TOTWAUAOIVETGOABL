@@ -1,3 +1,9 @@
 {
+  "custom_heal:reset_heal": {
+    "criteria": {
+      "requirement": "2026-05-24 18:31:07 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 4790
 }

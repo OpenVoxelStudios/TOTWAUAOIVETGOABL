@@ -1,5 +1,7 @@
 scoreboard players reset * phase
 
+kill @e[type=item]
+
 scoreboard players set phase phase 0
 
 #phase 1, which is bulb

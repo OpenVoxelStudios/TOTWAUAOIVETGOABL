@@ -1,6 +1,8 @@
 # FUSE
 tag @e remove generator.fuse.placed
 execute as @e[tag=generator.fuse.display,type=text_display] run data modify entity @s background set value -55808
+execute as @e[tag=fuse_holder] run data modify entity @s transformation.scale set value [0,0,0]
+
 
 # PUZZLE
 scoreboard players set puzzle_iterations phase 0

@@ -1,3 +1,6 @@
 scoreboard players reset death_timer phase
 
-say EVERYONE. DIES. NOW. (20min death timer lol)
+effect give @a wither infinite 10 true
+#tellraw @a "everyone died ;(""
+
+schedule function dp:story/collective_death2 5s

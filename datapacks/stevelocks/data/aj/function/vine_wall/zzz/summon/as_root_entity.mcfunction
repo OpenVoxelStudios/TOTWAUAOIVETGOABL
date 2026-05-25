@@ -12,7 +12,7 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:vine_wall"
-data modify storage animated_java:temp entry.data.rig_hash set value "d63be25067a7047914fd281fca18fe213472caa924576f3291b932cdfaeb2ab5"
+data modify storage animated_java:temp entry.data.rig_hash set value "cc59be906b9215e2233771c4131e5bb1076f087e7fe64993615fc7f961afa192"
 tp @s ~ ~ ~ ~ ~
 summon minecraft:interaction ^-1.5 ^0 ^-1.25 {Tags:["","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.locator","aj.global.root.child","aj.global.root.child.locator","aj.new","aj.vine_wall.entity","aj.vine_wall.locator","aj.vine_wall.locator.locator","aj.vine_wall.node","aj.vine_wall.node.locator"]}
 execute as @n[ type=minecraft:interaction, tag=aj.vine_wall.locator.locator, tag=aj.new, distance=..3 ] run function aj:vine_wall/zzz/summon/as_locator/locator

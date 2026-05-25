@@ -1,13 +1,22 @@
 # TODO: maybe play anim? health too?
-
+# anim sounds lame. wdym health too?
 
 execute if score @s entity.attack_cd matches 1.. run return 0
 scoreboard players remove @s entity.health 1
 scoreboard players set @s entity.attack_cd 10
-say ouch im hurttt :(
+tellraw @a[tag=debug] "ouch im hurttt :("
+
+playsound minecraft:entity.wither.hurt hostile @a[distance=0..32] ~ ~ ~ 1.0 1.7 0.0
+particle minecraft:damage_indicator ~ ~1 ~ 0.1 0.3 0.1 0 3 normal @a
 
 execute if score @s entity.health matches 1.. run return 0
 
+playsound minecraft:block.azalea_leaves.break hostile @a[distance=0..32] ~ ~ ~ 1.0 1.0 0.0
+playsound minecraft:block.azalea_leaves.break hostile @a[distance=0..32] ~ ~ ~ 1.0 1.0 0.0
+playsound minecraft:block.azalea_leaves.break hostile @a[distance=0..32] ~ ~ ~ 1.0 1.0 0.0
+playsound minecraft:block.azalea_leaves.break hostile @a[distance=0..32] ~ ~ ~ 1.0 1.0 0.0
+playsound minecraft:block.azalea_leaves.break hostile @a[distance=0..32] ~ ~ ~ 1.0 1.0 0.0
+playsound minecraft:block.azalea_leaves.break hostile @a[distance=0..32] ~ ~ ~ 1.0 1.0 0.0
 
 scoreboard players set killed_plants_temp phase 1
 execute if entity @s[tag=plant.growth.medium] run scoreboard players set killed_plants_temp phase 2

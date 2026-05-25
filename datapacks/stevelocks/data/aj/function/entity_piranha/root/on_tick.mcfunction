@@ -3,5 +3,6 @@ execute if entity @s[tag=aj.entity_piranha.animation.medium_grow.playing] run fu
 execute if entity @s[tag=aj.entity_piranha.animation.medium_idle.playing] run function aj:entity_piranha/animations/medium_idle/zzz/on_tick
 execute if entity @s[tag=aj.entity_piranha.animation.large_grow.playing] run function aj:entity_piranha/animations/large_grow/zzz/on_tick
 execute if entity @s[tag=aj.entity_piranha.animation.large_idle.playing] run function aj:entity_piranha/animations/large_idle/zzz/on_tick
+execute if entity @s[tag=aj.entity_piranha.animation.attack.playing] run function aj:entity_piranha/animations/attack/zzz/on_tick
 function aj:entity_piranha/root/on_tick/transform_floating_entities
 function aj:entity_piranha/root/zzz/0 with storage animated_java:temp entry.data.uuids_by_name

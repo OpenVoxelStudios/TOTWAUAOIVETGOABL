@@ -3,4 +3,5 @@ scoreboard objectives remove aj.medium_grow.frame
 scoreboard objectives remove aj.medium_idle.frame
 scoreboard objectives remove aj.large_grow.frame
 scoreboard objectives remove aj.large_idle.frame
+scoreboard objectives remove aj.attack.frame
 tellraw @a [[{color:gray,text:'\n '},{color:'#00aced',text:'ᴀɴɪᴍᴀᴛᴇᴅ ᴊᴀᴠᴀ'},{color:dark_gray,italic:true,text:'\n (aj:entity_piranha)'},'\n → '],[{text:'Successfully uninstalled ',color:green},{text:'aj:entity_piranha',color:yellow},{text:'!'},{text:'\n If you have exported multiple times, you may have to remove objectives from previous exports manually, as Animated Java only knows about the objectives from the most recent export.',color:gray,italic:true}],'\n']

@@ -12,7 +12,7 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:entity_trap"
-data modify storage animated_java:temp entry.data.rig_hash set value "e30df68744361bd3e967bfecf10224764469f60e1ddf333677bb2fddb0a577a2"
+data modify storage animated_java:temp entry.data.rig_hash set value "303fad0ff1c7949dd9063a9b61142e0d1c7329f6ee0772fba295adfa65331bec"
 tp @s ~ ~ ~ ~ ~
 summon minecraft:interaction ^0 ^0 ^0 {Tags:["aj.entity_trap.bone.root.child","aj.entity_trap.bone.root.child.locator","aj.entity_trap.bone.root.decendant","aj.entity_trap.bone.root.decendant.locator","aj.entity_trap.bone.root.tree","aj.entity_trap.entity","aj.entity_trap.locator","aj.entity_trap.locator.entity_hitbox","aj.entity_trap.node","aj.entity_trap.node.entity_hitbox","aj.global.bone.root.child","aj.global.bone.root.child.locator","aj.global.bone.root.decendant","aj.global.bone.root.decendant.locator","aj.global.bone.root.tree","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.entity_hitbox","aj.new","entity.kill_when_reset"]}
 execute as @n[ type=minecraft:interaction, tag=aj.entity_trap.locator.entity_hitbox, tag=aj.new, distance=..1 ] run function aj:entity_trap/zzz/summon/as_locator/entity_hitbox
