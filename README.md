@@ -21,3 +21,5 @@ The name says it all! You’re a content creator who goes into abandoned buildin
 - Improved Transparency setting recommended to fix transparency issue (no it doesn’t have any cool functionality lol).
 don’t die.
 - oh and weball
+
+*absolutely no AI has been used btw*
